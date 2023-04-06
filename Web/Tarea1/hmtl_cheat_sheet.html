@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        .myDiv {
+          border: 5px outset brown;
+          background-color: lightgray;
+          text-align: center;
+        }
+        </style>
 </head>
 <body>
 
@@ -11,16 +18,16 @@
 <p>Por ejemplo: Este <a href="https://youtu.be/dQw4w9WgXcQ"> link </a> definitivamente <strong>no</strong>lleva a un video de Rick Astley</p>
 
 
-<h2>p - P&oacute;arrafo</h2>
+<h2>p - P&aacute;rrafo</h2>
 
-<p>La idea de un p&oacute;arrafo es agrupar componentes de una página para dar más estructura.</p>
-<p>Por ejemplo: La oración de arriba esta estructurada como un p&oacute;arrafo utilizando &lt;p&gt;</p>
+<p>La idea de un p&aacute;rrafo es agrupar componentes de una página para dar más estructura.</p>
+<p>Por ejemplo: La oración de arriba esta estructurada como un p&aacute;rrafo utilizando &lt;p&gt;</p>
 
 
 <h2>h1, h2, ... , h6 - Encabezados</h2>
 
-<p>Un encabezado permite segmentar una p&oacute;agina web.</p>
-<p>Es posible cambiar el tamaño de del encabezado cambiando el n&oacute;umero de encabezado.</p>
+<p>Un encabezado permite segmentar una p&aacute;gina web.</p>
+<p>Es posible cambiar el tamaño de del encabezado cambiando el n&uacute;mero de encabezado.</p>
 
 <p>Por ejemplo:</p>
 
@@ -34,4 +41,15 @@
 
 <h2>div - Contenedor de bloque</h2>
 
-<p>Una divisi&oacute;on funciona para seccionar un documento y funciona para poder aplicar estilo con CSS</p>
+<p>Una divisi&oacute;n funciona para seccionar un documento y funciona para poder aplicar estilo con CSS</p>
+
+<div class="myDiv">
+    <h2>Este es el encabezado en el elemento divisi&oacute;n.</h2>
+    <p>Este es texto en el elemento divisi&oacute;n.</p>
+  </div>
+  
+  <p>Este texto ya no se encuentra dentro de &lt;div&gt;.</p>
+  
+
+</body>
+</html>
