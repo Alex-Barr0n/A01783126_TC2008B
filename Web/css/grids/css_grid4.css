@@ -1,0 +1,47 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #2F3244;
+}
+
+.grid-container {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 15px; 
+}
+
+.grid-item{
+    border: 2px black solid;
+    padding: 10px;
+    background-color: azure;
+}
+
+#grid-item-1{
+    background-color: #FA6958;
+}
+
+#grid-item-2{
+    background-color: #FD825C;
+}
+
+#grid-item-3{
+    background-color: #FDA061;
+}
+
+#grid-item-4{
+    background-color: #01A787;
+}
+
+#grid-item-5{
+    background-color: #21bd9e;
+}
+
+#grid-item-6{
+    background-color: #34DABA;
+}
