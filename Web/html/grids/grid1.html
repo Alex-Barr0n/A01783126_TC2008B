@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <head>
-    <link href="../css/css_grid_base.css" rel="stylesheet">
+  <style>
+    * {
+    font-family: "Times New Roman", Times, serif;
+    }
+
+    body {
+        height: 100vh;
+        background-color: #2F3244;
+    }
+
+    .grid-container {
+        display: grid;
+        height: 100%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .grid-item{
+        border: 2px black solid;
+        padding: 10px;
+        background-color: azure;
+    }
+
+    #grid-item-1{
+        background-color: aqua;
+    }
+  </style>
     <title>CSS Grid 1</title>
 </head>
 <body>
