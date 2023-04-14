@@ -4,19 +4,19 @@
 
 body {
     height: 100vh;
-    background-color:#2F3244;
+    background-color: #2F3244;
 }
 
 .grid-container {
-    display:grid;
+    display: grid;
     height: 100%;
     grid-template-columns: repeat(3 1fr);
     grid-template-rows: repeat(2 1fr);
-    gap:15px;
+    gap: 15px;
 }
 
 .grid-item{
+    border: 2px black solid;
     padding: 10px;
-    border: 1px black solid;
     background-color: azure;
 }
