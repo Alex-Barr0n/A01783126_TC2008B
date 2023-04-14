@@ -22,5 +22,25 @@ body {
 }
 
 #grid-item-1{
-    background-color: aqua;
+    background-color: #FA6958;
+}
+
+#grid-item-2{
+    background-color: #FD825C;
+}
+
+#grid-item-3{
+    background-color: #FDA061;
+}
+
+#grid-item-4{
+    background-color: #01A787;
+}
+
+#grid-item-5{
+    background-color: #1BC1A1;
+}
+
+#grid-item-6{
+    background-color: #34DABA;
 }
