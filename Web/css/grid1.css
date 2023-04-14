@@ -17,5 +17,6 @@ body {
 
 .grid-item{
     padding: 10px;
+    border: 1px black solid;
     background-color: azure;
 }
