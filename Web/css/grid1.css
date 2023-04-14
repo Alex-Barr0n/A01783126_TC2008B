@@ -1,0 +1,14 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    height: 100vh;
+    background-color:#2F3244;
+}
+
+.grid-container {
+    display:grid;
+    height: 100%;
+    grid-template-columns:3;
+}
