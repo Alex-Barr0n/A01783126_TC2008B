@@ -10,5 +10,12 @@ body {
 .grid-container {
     display:grid;
     height: 100%;
-    grid-template-columns:3;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(2 1fr);
+    gap:15px;
+}
+
+.grid-item{
+    padding: 10px;
+    background-color: azure;
 }
