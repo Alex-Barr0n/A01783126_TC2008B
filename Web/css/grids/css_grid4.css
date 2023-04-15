@@ -10,8 +10,8 @@ body {
 .grid-container {
     display: grid;
     height: 100%;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 15px; 
 }
@@ -23,25 +23,47 @@ body {
 }
 
 #grid-item-1{
-    background-color: #FA6958;
+    background-color: #FDA061;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 #grid-item-2{
-    background-color: #FD825C;
+    background-color: #34DABA;  
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 #grid-item-3{
-    background-color: #FDA061;
+    background-color: #FA6958 ;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+#grid-item-especial{
+    background-color: #01A787;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 #grid-item-4{
-    background-color: #01A787;
+    background-color: #34DABA;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
 }
 
 #grid-item-5{
-    background-color: #21bd9e;
+    background-color: #1BC1A1;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 }
 
 #grid-item-6{
-    background-color: #34DABA;
+    background-color: #FD825C;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
