@@ -37,8 +37,7 @@ body {
 #grid-item-3{
     background-color: #34DABA;
     grid-row: 2 / 3;
-    grid-column: 2 / 4;
-    
+    grid-column: 2 / 4; 
 }
 
 #grid-item-4{
