@@ -56,13 +56,13 @@ body {
 }
 
 #grid-item-5{
-    background-color: #1BC1A1;
+    background-color: #FD825C;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
 
 #grid-item-6{
-    background-color: #FD825C;
+    background-color: white;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 } 
