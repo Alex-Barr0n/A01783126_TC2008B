@@ -34,7 +34,7 @@ body {
 }
 
 #grid-item-3{
-    background-color: #01A787;
+    background-color: white;
     grid-column: 1 / 3;
     grid-row: 3 / span 2;
 }
