@@ -22,52 +22,6 @@ font-size: 13px;
 background-color: rgb(50, 50, 50);
 }
 
-
-  .grid-container-borders-around {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    margin:80px;
-  }
-  
-  #grid-item-left{
-    border-left-style: double;
-	border-color: rgb(198, 133, 58);
-	border-width: thick;
-
-    background-color: rgb(50, 50, 50);
-    padding: 10px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  #grid-item-bottom-top{
-    border-top-style: double;
-    border-bottom-style: double;
-	border-color: rgb(198, 133, 58);
-	border-width: thick;
-
-    background-color: rgb(50, 50, 50);
-    padding: 10px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  #grid-item-right{
-    border-right-style: double;
-	border-color: rgb(198, 133, 58);
-	border-width: thick;
-    
-    background-color: rgb(50, 50, 50);
-    padding: 10px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-
 #border
 {
 border-style: solid;
@@ -87,4 +41,79 @@ border-width: thick;
 border-style: dotted dashed solid ridge;
 border-color: rgb(198, 133, 58);
 border-width: thick;
+}
+
+  .grid-container-borders-around {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin:80px;
+  }
+
+  #grid-item-left{
+    border-left-style: double;
+    border-color: rgb(198, 133, 58);
+    border-width: thick;
+
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #grid-item-bottom-top{
+    border-top-style: double;
+    border-bottom-style: double;
+    border-color: rgb(198, 133, 58);
+    border-width: thick;
+
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #grid-item-right{
+    border-right-style: double;
+    border-color: rgb(198, 133, 58);
+    border-width: thick;
+    
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+#border-radius
+{
+border-style: solid;
+border-color: rgb(222, 206, 63);
+border-width: thick;  
+border-radius: 30px;
+}
+
+#border_radius_ejemplo
+{
+border-style: solid;
+border-color: rgb(222, 206, 63);
+border-width: thick;  
+border-radius: 30%;
+}
+
+#background-image
+{
+  background-image: url("https://www.xtrafondos.com/descargar.php?id=2898&resolucion=3840x2160");
+}
+
+#background-image-ejemplo
+{
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200801/pngtree-dull-unicorn-background-colorful-image_375368.jpg");
+}
+
+#color
+{
+  
 }
