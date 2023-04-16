@@ -1,8 +1,55 @@
 * {
-    font-family: "Times New Roman", Times, serif;
-  }
+  font-family: "Times New Roman", Times, serif;
+  color:azure;
+}
+
+body{
+background-color: rgb(33,33,33);
+}
+
+p{
+font-size: 16px;
+}
+
+div{
+padding: 10px;
+}
 
 .div_ejemplo
 {
-  font-size: 10px;
+padding: 10px;
+font-size: 13px;
+background-color: rgb(50, 50, 50);
+}
+
+
+#border
+{
+border-style: solid;
+border-color: rgb(198, 58, 58);
+border-width: thick;
+}
+
+#border_ejemplo
+{
+border-style: inset;
+border-color: rgb(255, 80, 80);
+border-width: thick;
+}
+
+#borders_around
+{
+border-style: dotted dashed solid double;
+border-color: rgb(198, 133, 58);
+border-width: thick;
+}
+
+#border-radius
+{
+
+}
+
+#background-image
+{
+
 }
