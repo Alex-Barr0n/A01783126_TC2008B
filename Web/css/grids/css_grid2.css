@@ -40,7 +40,7 @@ body {
 }
 
 #grid-item-4{
-    background-color: #FD825C;
+    background-color: white;
     grid-row: 3 / 4;
     grid-column: 2 / 3;
 }
