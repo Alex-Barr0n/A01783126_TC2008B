@@ -40,13 +40,13 @@ body {
 }
 
 #grid-item-4{
-    background-color: white;
+    background-color: #FD825C;
     grid-row: 3 / 4;
     grid-column: 2 / 3;
 }
 
 #grid-item-5{
-    background-color: #21bd9e;
+    background-color: white;
     grid-row: 3 / 4;
     grid-column: 3 / 4;
 } 
