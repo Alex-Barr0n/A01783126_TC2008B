@@ -47,7 +47,6 @@ border-width: thick;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    margin:80px;
   }
 
   #grid-item-left{
@@ -123,4 +122,23 @@ border-radius: 30%;
   border-style: solid;
   border-color: rgb(58, 135, 198);
   border-width: thick;
+}
+
+#font-family
+{
+  border-style: solid;
+  border-color: rgb(198, 58, 179);
+  border-width: thick; 
+}
+
+.family1 {
+  font-family: "Lucida Console";
+}
+
+.family2 {
+  font-family: Arial;
+}
+
+.family3 {
+  font-family: "Brush Script MT";
 }
