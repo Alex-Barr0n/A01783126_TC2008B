@@ -115,5 +115,12 @@ border-radius: 30%;
 
 #color
 {
-  
+  background-color:rgb(72, 49, 100);
+}
+
+#font
+{
+  border-style: solid;
+  border-color: rgb(58, 135, 198);
+  border-width: thick;
 }
