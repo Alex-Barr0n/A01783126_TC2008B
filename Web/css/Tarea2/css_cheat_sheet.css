@@ -94,26 +94,26 @@ border-width: thick;
 border-radius: 30px;
 }
 
-#border_radius_ejemplo
-{
-border-style: solid;
-border-color: rgb(222, 206, 63);
-border-width: thick;  
-border-radius: 30%;
-}
+  #border_radius_ejemplo
+  {
+  border-style: solid;
+  border-color: rgb(222, 206, 63);
+  border-width: thick;  
+  border-radius: 30%;
+  }
 
 #background-image
 {
   background-image: url("https://www.xtrafondos.com/descargar.php?id=2898&resolucion=3840x2160");
 }
 
-#background-image-ejemplo
-{
-  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200801/pngtree-dull-unicorn-background-colorful-image_375368.jpg");
-  position: relative;
-  left: 0px;
-  width: 30%;
-}
+  #background-image-ejemplo
+  {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200801/pngtree-dull-unicorn-background-colorful-image_375368.jpg");
+    position: relative;
+    left: 0px;
+    width: 30%;
+  }
 
 #color
 {
@@ -134,14 +134,25 @@ border-radius: 30%;
   border-width: thick; 
 }
 
-.family1 {
-  font-family: "Lucida Console";
+  .family1 {
+    font-family: "Lucida Console";
+  }
+
+  .family2 {
+    font-family: Arial;
+  }
+
+  .family3 {
+    font-family: "Brush Script MT";
+  }
+
+#font-style{
+  border-style: solid;
+  border-color: rgb(58, 189, 198);
+  border-width: thick; 
 }
 
-.family2 {
-  font-family: Arial;
-}
-
-.family3 {
-  font-family: "Brush Script MT";
+p.font-weight{
+  font-weight: bold;
+  font-style: italic;
 }
