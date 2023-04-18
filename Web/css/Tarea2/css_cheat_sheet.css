@@ -156,3 +156,35 @@ p.font-weight{
   font-weight: bold;
   font-style: italic;
 }
+
+#width{
+  border-style: solid;
+  border-color: rgb(198, 58, 81);
+  border-width: thick; 
+}
+
+#width_ejemplo{
+  width: 50%;
+  border-style: dashed;
+  border-color: rgb(198, 58, 81);
+  border-width: thin; 
+}
+
+#width_ejemplo2{
+  width: 500px;
+  border-style: solid;
+  border-color: rgb(198, 58, 81);
+  border-width: thin; 
+}
+
+#height{
+  border-style: solid;
+  border-color: rgb(88, 58, 198);
+  border-width: thick;  
+}
+
+#list-style{
+  border-style: solid;
+  border-color: rgb(161, 198, 58);
+  border-width: thick;  
+}
