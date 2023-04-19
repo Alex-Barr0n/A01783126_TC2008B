@@ -214,9 +214,9 @@ border-radius: 30px;
 }
 
 #height_ejemplo{
-  border-style: solid;
-  border-color: rgb(88, 58, 198);
-  border-width: thick;  
+  border-style: dashed;
+  border-color: rgb(88, 58, 198);  
+  border-width: thin;  
 }
 
 #list-style{
@@ -227,7 +227,7 @@ border-radius: 30px;
 
   #list-style_ejemplo{
     border-style: dashed;
-    border-color: rgb(198, 58, 81);
+    border-color: rgb(46, 164, 82);
     border-width: thin; 
   }
 
@@ -297,6 +297,10 @@ border-radius: 30px;
     width: 300px;
     height: 100px;
     overflow: visible;
+
+    border-style: dashed;
+    border-color: rgb(58, 114, 198);
+    border-width: thin;   
   }
 
   #grid-item-hidden{
@@ -309,6 +313,10 @@ border-radius: 30px;
     width: 300px;
     height: 100px;
     overflow: hidden;
+
+    border-style: dashed;
+    border-color: rgb(58, 114, 198);
+    border-width: thin;  
   }
 
   #grid-item-scroll{
@@ -321,6 +329,10 @@ border-radius: 30px;
     width: 300px;
     height: 100px;
     overflow: scroll;
+
+    border-style: dashed;
+    border-color: rgb(58, 114, 198);
+    border-width: thin;  
   }
 
 #display{
@@ -345,6 +357,10 @@ border-radius: 30px;
     width: 300px;
     height: 100px;
     overflow: visible;
+
+    border-style: dashed;
+    border-color: rgb(198, 100, 58);
+    border-width: thin;  
   }
 
   #grid-item-d2{
@@ -357,6 +373,10 @@ border-radius: 30px;
     width: 300px;
     height: 100px;
     overflow: hidden;
+
+    border-style: dashed;
+    border-color: rgb(198, 100, 58);
+    border-width: thin;  
   }
 
   #grid-item-d3{
@@ -369,6 +389,10 @@ border-radius: 30px;
     width: 300px;
     height: 100px;
     overflow: scroll;
+
+    border-style: dashed;
+    border-color: rgb(198, 100, 58);
+    border-width: thin;  
   }
 
 #position{
@@ -386,6 +410,10 @@ border-radius: 30px;
   width: 300px;
   height: 100px;
   overflow: scroll;
+
+  border-style: dashed;
+  border-color: rgb(58, 198, 154);
+  border-width: thin;  
 }
 
 div.sticky {
@@ -406,9 +434,9 @@ div.sticky {
 }
 
 #filter_ejemplo{
-  border-style: solid;
-  border-color: rgb(88, 58, 198);
-  border-width: thick;  
+  border-style: dashed;
+  border-color: rgb(134, 8, 94);
+  border-width: thin;  
 }
 
 .blur {filter: blur(4px);}
