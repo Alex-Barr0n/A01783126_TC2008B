@@ -288,3 +288,15 @@ border-radius: 30px;
     height: 100px;
     overflow: scroll;
   }
+
+#display{
+  border-style: solid;
+  border-color: rgb(198, 100, 58);
+  border-width: thick; 
+}
+
+#position{
+  border-style: solid;
+  border-color: rgb(58, 198, 154);
+  border-width: thick; 
+}
