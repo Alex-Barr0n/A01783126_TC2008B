@@ -152,25 +152,22 @@ border-radius: 30px;
   border-width: thick; 
 }
 
+  #font-style_ejemplo{
+    border-style: dashed;
+    border-color:  rgb(198, 58, 179);
+    border-width: thin; 
+  }
+
   .family1 {
     font-family: "Lucida Console";
-    border-style: dashed;
-    border-color: rgb(198, 58, 179);
-    border-width: thin; 
   }
 
   .family2 {
     font-family: Arial;
-    border-style: dashed;
-    border-color: rgb(198, 58, 179);
-    border-width: thin; 
   }
 
   .family3 {
     font-family: "Brush Script MT";
-    border-style: dashed;
-    border-color: rgb(198, 58, 179);
-    border-width: thin; 
   }
 
 #font-style{
