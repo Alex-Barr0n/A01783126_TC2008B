@@ -192,19 +192,19 @@ border-radius: 30px;
 
 #list-style{
   border-style: solid;
-  border-color: rgb(161, 198, 58);
+  border-color: rgb(173, 189, 129);
   border-width: thick;  
 }
 
   #list-style_ejemplo{
     background: rgb(161, 198, 58);
     padding: 20px;
-    list-style: armenian inside url("sqpurple.gif");
+    list-style: armenian inside url(../../Imagenes/clippy_chiquito.png);
   }
 
   .list-style_ejemplo_color{
     background: #d1ffcc;
-    color: rgb(0, 139, 44);
+    color: rgb(1, 28, 10);
     margin: 5px;
   }
 
