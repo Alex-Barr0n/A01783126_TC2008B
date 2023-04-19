@@ -116,6 +116,10 @@ border-radius: 30px;
     position: relative;
     left: 0px;
     width: 30%;
+
+    border-style: dashed;
+    border-color: rgb(67, 58, 198);
+    border-width: thin; 
   }
 
 #color{
@@ -128,6 +132,10 @@ border-radius: 30px;
   padding: 10px;
   font-size: 13px;
   background-color:rgb(72, 49, 100);
+
+  border-style: dashed;
+  border-color: rgb(150, 127, 178);
+  border-width: thin; 
 }
 
 #font
@@ -146,14 +154,23 @@ border-radius: 30px;
 
   .family1 {
     font-family: "Lucida Console";
+    border-style: dashed;
+    border-color: rgb(198, 58, 179);
+    border-width: thin; 
   }
 
   .family2 {
     font-family: Arial;
+    border-style: dashed;
+    border-color: rgb(198, 58, 179);
+    border-width: thin; 
   }
 
   .family3 {
     font-family: "Brush Script MT";
+    border-style: dashed;
+    border-color: rgb(198, 58, 179);
+    border-width: thin; 
   }
 
 #font-style{
@@ -161,6 +178,12 @@ border-radius: 30px;
   border-color: rgb(58, 189, 198);
   border-width: thick; 
 }
+
+  #font-style_ejemplo{
+    border-style: dashed;
+    border-color: rgb(58, 189, 198);
+    border-width: thin; 
+  }
 
   p.font-weight{
     font-weight: bold;
@@ -193,13 +216,24 @@ border-radius: 30px;
   border-width: thick;  
 }
 
+#height_ejemplo{
+  border-style: solid;
+  border-color: rgb(88, 58, 198);
+  border-width: thick;  
+}
+
 #list-style{
   border-style: solid;
   border-color: rgb(46, 164, 82);
   border-width: thick;  
 }
 
-  
+  #list-style_ejemplo{
+    border-style: dashed;
+    border-color: rgb(198, 58, 81);
+    border-width: thin; 
+  }
+
   .list-style_ejemplo_color{
     background: #dfffdc;
     color: rgb(1, 14, 5);
@@ -372,6 +406,12 @@ div.sticky {
   border-style: solid;
   border-color: rgb(134, 8, 94);
   border-width: thick; 
+}
+
+#filter_ejemplo{
+  border-style: solid;
+  border-color: rgb(88, 58, 198);
+  border-width: thick;  
 }
 
 .blur {filter: blur(4px);}
