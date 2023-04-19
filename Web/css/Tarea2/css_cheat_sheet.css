@@ -145,6 +145,13 @@ border-radius: 30px;
   border-width: thick;
 }
 
+#font_ejemplo
+{
+  border-style: dashed;
+  border-color: rgb(58, 135, 198);
+  border-width: thin;
+}
+
 #font-family
 {
   border-style: solid;
@@ -154,7 +161,7 @@ border-radius: 30px;
 
   #font-style_ejemplo{
     border-style: dashed;
-    border-color:  rgb(198, 58, 179);
+    border-color: rgb(198, 58, 179);
     border-width: thin; 
   }
 
