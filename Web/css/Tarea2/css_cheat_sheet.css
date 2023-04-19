@@ -311,16 +311,3 @@ border-radius: 30px;
 .saturate {filter: saturate(7);}
 .sepia {filter: sepia(100%);}
 .shadow {filter: drop-shadow(8px 8px 10px rgb(134, 8, 94));}
-.every_effect
-{
-  filter: blur(4px);
-  filter: brightness(0.30);
-  filter: contrast(180%);
-  filter: grayscale(100%);
-  filter: hue-rotate(180deg);
-  filter: invert(100%);
-  filter: opacity(50%);
-  filter: saturate(7);
-  filter: sepia(100%);
-  filter: drop-shadow(8px 8px 10px rgb(134, 8, 94));
-}
