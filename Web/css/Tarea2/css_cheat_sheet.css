@@ -197,13 +197,12 @@ border-radius: 30px;
 }
 
   #list-style_ejemplo{
-    background: rgb(46, 164, 82);
+    background: rgb(0, 0, 0);
   }
   
   .list-style_ejemplo_color{
     background: #dfffdc;
     color: rgb(1, 14, 5);
-    margin: 5px;
   }
 
 #margin{
