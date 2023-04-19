@@ -105,6 +105,9 @@ border-radius: 30px;
 #background-image
 {
   background-image: url("https://www.xtrafondos.com/descargar.php?id=2898&resolucion=3840x2160");
+  border-style: solid;
+  border-color: rgb(67, 58, 198);
+  border-width: thick;
 }
 
   #background-image-ejemplo
@@ -343,17 +346,6 @@ border-radius: 30px;
   border-width: thick; 
 }
 
-.blur {filter: blur(4px);}
-.brightness {filter: brightness(0.30);}
-.contrast {filter: contrast(180%);}
-.grayscale {filter: grayscale(100%);}
-.huerotate {filter: hue-rotate(180deg);}
-.invert {filter: invert(100%);}
-.opacity {filter: opacity(50%);}
-.saturate {filter: saturate(7);}
-.sepia {filter: sepia(100%);}
-.shadow {filter: drop-shadow(8px 8px 10px rgb(134, 8, 94));}
-
 #position_ejemplo{
   padding: 10px;
   text-align: justify;
@@ -375,3 +367,20 @@ div.sticky {
   align: right;
   color:black;
 }
+
+#filter{
+  border-style: solid;
+  border-color: rgb(134, 8, 94);
+  border-width: thick; 
+}
+
+.blur {filter: blur(4px);}
+.brightness {filter: brightness(0.30);}
+.contrast {filter: contrast(180%);}
+.grayscale {filter: grayscale(100%);}
+.huerotate {filter: hue-rotate(180deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(7);}
+.sepia {filter: sepia(100%);}
+.shadow {filter: drop-shadow(8px 8px 10px rgb(134, 8, 94));}
