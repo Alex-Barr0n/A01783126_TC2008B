@@ -76,9 +76,12 @@
     <li>hsl&#40;267, 34%, 29%, 1&#41;</li>
     <li>rgba&#40;72, 49, 100, 1&#41;</li> 
   </ul>
-  <p>Todas estas son maneras diferentes de escribir el mismo color &#40;el que est&aacute; de fondo para esta secc&oacute;n&#41;.</p>
+  <p>Todas estas son maneras diferentes de escribir el mismo color.</p>
   <p>Sin embargo, CSS/HTML admite 140 nombres de color estándar. 
     <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">Aqu&iacute; los puedes ver.</a></p>
+  <div id="color_ejemplo">
+    <p>Este contenedor de bloque es del color que fue descrito de diferentes maneras previamente.</p>
+  </div>  
 </div>
 
 <br>
@@ -137,6 +140,7 @@
   <p>Esta propiedad define la amplitud de un contenedor de bloque. 
     Se puede definir ya sea con pixeles o por porcentaje.
   </p>
+  <h3>Por ejemplo:</h3>
   <div class="div_ejemplo" id="width_ejemplo">
     <p>Este contenedor de bloque tiene un <i>width</i> de 50%, por ende, cambia con el tamaño de la pantalla.</p>
   </div>
@@ -154,6 +158,7 @@
     Al igual de <i>width</i> esta propiedad altera el tamaño de un contenedor de bloque, sin embargo, este altera la altura.
     En esta propiedad, no es posible alterar la altura usando porcentaje.
   </p>
+  <h3>Por ejemplo:</h3>
   <div class="div_ejemplo">
     <p>Este contenedor de bloque tiene un <i>height</i> de 100px.</p>
   </div>
@@ -165,27 +170,75 @@
   <h2>list-style</h2>
   <p>Te permite establecer diferentes marcadores de elementos de lista para listas, incluyendo imágenes. 
     Además te permite añadir colores de fondo a las listas y sus elementos</p>
-  <div class="div_ejemplo">
+    <h3>Por ejemplo:</h3>
+    <div class="div_ejemplo">
     <p></p>
   </div>  
   </div>
 
 <br>
 
-<div>
+<div id="margin">
   <h2>margin</h2>
+  <p>Esta propiedad establece un espacio al rededor de un elemento, fuera de sus bordes.
+    Se pueden editar cada uno de los lagos por separado.
+  </p>
+  <h3>Por ejemplo:</h3>
+  <div class="div_ejemplo" id="margin_ejemplo">
+    <p>Este contenedor de bloque tiene 50px de margen.</p>
+  </div>
+  <div class="div_ejemplo" id="margin_ejemplo2">
+    <p>Este elemento div tiene un margen superior de 25px, un margen derecho de 100px, 
+      un margen inferior de 75px y un margen izquierdo de 300px.</p>
+  </div>
 </div>
 
 <br>
 
-<div>
+<div id="padding">
   <h2>padding</h2>
+  <p>Esta propiedad se utiliza para crear espacio alrededor del contenido de un elemento, 
+    dentro de los bordes.</p>
+  <p>De la misma manera que <i>margin</i> esta se puede modificar individualmente de cada lado.</p>  
+  <h3>Por ejemplo:</h3>
+  <div class="div_ejemplo" id="padding_ejemplo">
+    <p>Este contenedor de bloque tiene 50px de relleno.</p>
+  </div>
+  <div class="div_ejemplo" id="padding_ejemplo2">
+    <p>Este elemento div tiene un relleno superior de 25px, un relleno derecho de 100px, 
+      un relleno inferior de 75px y un relleno izquierdo de 300px.</p>
+  </div>
 </div>
 
 <br>
 
-<div>
+<div id="overflow">
   <h2>overflow</h2>
+  <p>Esta propiedad sirve para gestionar el texto que se sale del contenedor de bloque.</p>
+  <p>Tiene 3 valores:</p>
+  <ol>
+    <li>visible</li>
+    <li>hidden</li>
+    <li>scroll</li>
+  </ol>
+  <h3>Por ejemplo:</h3>
+  <div class="grid-container-overflow">
+  
+    <div id="grid-item-visible">
+      <h4>Visible</h4>
+      <p>Border left</p>
+    </div>
+    
+    <div id="grid-item-hidden">
+      <h4>Hidden</h4>
+      <p> + border-bottom</p>
+    </div>
+    
+    <div id="grid-item-scroll">
+      <h4>Scroll</h4>
+    </div>
+    
+    </div>
 </div>
 
 <br>

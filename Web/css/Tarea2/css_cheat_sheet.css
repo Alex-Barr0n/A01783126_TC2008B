@@ -115,8 +115,15 @@ border-radius: 30px;
     width: 30%;
   }
 
-#color
-{
+#color{
+  border-style: solid;
+  border-color:rgb(72, 49, 100);
+  border-width: thick;
+}
+
+#color_ejemplo{
+  padding: 10px;
+  font-size: 13px;
   background-color:rgb(72, 49, 100);
 }
 
@@ -152,10 +159,10 @@ border-radius: 30px;
   border-width: thick; 
 }
 
-p.font-weight{
-  font-weight: bold;
-  font-style: italic;
-}
+  p.font-weight{
+    font-weight: bold;
+    font-style: italic;
+  }
 
 #width{
   border-style: solid;
@@ -163,19 +170,19 @@ p.font-weight{
   border-width: thick; 
 }
 
-#width_ejemplo{
-  width: 50%;
-  border-style: dashed;
-  border-color: rgb(198, 58, 81);
-  border-width: thin; 
-}
+  #width_ejemplo{
+    width: 50%;
+    border-style: dashed;
+    border-color: rgb(198, 58, 81);
+    border-width: thin; 
+  }
 
-#width_ejemplo2{
-  width: 500px;
-  border-style: solid;
-  border-color: rgb(198, 58, 81);
-  border-width: thin; 
-}
+  #width_ejemplo2{
+    width: 500px;
+    border-style: dashed;
+    border-color: rgb(198, 58, 81);
+    border-width: thin; 
+  }
 
 #height{
   border-style: solid;
@@ -187,4 +194,92 @@ p.font-weight{
   border-style: solid;
   border-color: rgb(161, 198, 58);
   border-width: thick;  
+}
+
+#margin{
+  border-style: solid;
+  border-color: rgb(63, 58, 198);
+  border-width: thick;  
+}
+
+  #margin_ejemplo{
+    margin: 50px;
+    border-style: dashed;
+    border-color: rgb(63, 58, 198);
+    border-width: thin; 
+  }
+
+  #margin_ejemplo2{
+    margin: 25px 100px 75px 300px;
+    border-style: dashed;
+    border-color: rgb(63, 58, 198);
+    border-width: thin; 
+  }
+
+#padding{
+  border-style: solid;
+  border-color: rgb(58, 198, 95);
+  border-width: thick;  
+}
+
+  #padding_ejemplo{
+      padding: 50px;
+      border-style: dashed;
+      border-color: rgb(58, 198, 95);
+      border-width: thin;   
+  }
+  #padding_ejemplo2{
+    padding: 25px 100px 75px 300px;
+    border-style: dashed;
+    border-color: rgb(58, 198, 95);
+    border-width: thin;   
+}
+
+#overflow{
+  border-style: solid;
+  border-color: rgb(58, 114, 198);
+  border-width: thick;  
+}
+
+.grid-container-borders-around {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+#grid-item-left{
+  border-left-style: double;
+  border-color: rgb(198, 133, 58);
+  border-width: thick;
+
+  background-color: rgb(50, 50, 50);
+  padding: 10px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#grid-item-bottom-top{
+  border-top-style: double;
+  border-bottom-style: double;
+  border-color: rgb(198, 133, 58);
+  border-width: thick;
+
+  background-color: rgb(50, 50, 50);
+  padding: 10px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#grid-item-right{
+  border-right-style: double;
+  border-color: rgb(198, 133, 58);
+  border-width: thick;
+  
+  background-color: rgb(50, 50, 50);
+  padding: 10px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
