@@ -3,7 +3,7 @@ Encuentre el primer caracter de un cadena que no se repite.
 Prueba tu función con: 'abacddbec'
 */
 
-function repeitdo(str) 
+function repetido(str) 
 {
     const contador = {}; 
     
@@ -17,5 +17,6 @@ function repeitdo(str)
       }
     }
 }
-console.log("AAA")
-console.log(repeitdo("abacddbec"))
+console.log("En la cabena de caracteres 'abacddbec' la primera letra que no se repite es 'e'" + repetido("abacddbec"))
+
+//Escribe una función que implemente el algoritmo 'bubble-sort' para ordenar una lista de números.
