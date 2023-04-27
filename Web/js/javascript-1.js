@@ -45,10 +45,43 @@ la segunda que modifique el mismo arreglo que se pasa como argumento. No se perm
 
 function invert(arreglo)
 {
-
+  let reverted=[];
+  for (let i = arreglo.length-1; i >= 0; i--)
+  {
+      reverted.push(arreglo[i]); 
+  }
+  return reverted;
 }
 
 function modify(arreglo)
 {
-  
+  return arreglo.map(Math.sqrt);
+}
+
+/*
+Escribe una función que reciba una cadena de texto y regrese una nueva con la primer letra de cada palabra en mayúscula.
+*/
+
+function upCase (str)
+{
+    let newstr =[];
+    newstr.push(str[0].toUpperCase());
+    let sig=false;
+    for (let i=0; i<str.length; i++)
+    {
+        
+        if(str[i]==" ")//si hay un espacio vacío
+        {
+            newstr.push(str[i+1].toUpperCase());//la letra que siga guardala en uppercase
+            sig =true;//informa que se acaba de agregar una mayuscula
+        }
+        if(sig==false)
+        {
+            newstr.push(str[i+1]);
+        }
+        
+        sig=false;//se reinicia la variable a su valor default
+        
+    }
+    return newstr.join('');
 }
