@@ -17,7 +17,7 @@ function repetido(str)
     }
   } 
 }
-console.log("En la cabena de caracteres 'abacddbec' la primera letra que no se repite es 'e'" + repetido("abacddbec"))
+console.log("En la cabena de caracteres 'abacddbec' la primera letra que no se repite es: " + repetido("abacddbec"))
 
 //Escribe una función que implemente el algoritmo 'bubble-sort' para ordenar una lst de números.
 
