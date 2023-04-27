@@ -38,12 +38,13 @@ function bubble_sort(lst)
   }
 }
 
+
 /*
 Escribe dos funciones: la primera que invierta un arreglo de números y regrese un nuevo arreglo con el resultado; 
 la segunda que modifique el mismo arreglo que se pasa como argumento. No se permite usar la función integrada 'reverse'.
 */
 
-function invert(arreglo)
+function invert(arreglo) //Lo vas metiendo en un nuevo portador para que "entren" al revés
 {
   let reverted=[];
   for (let i = arreglo.length-1; i >= 0; i--)
@@ -53,35 +54,38 @@ function invert(arreglo)
   return reverted;
 }
 
-function modify(arreglo)
+function modify(arreglo) 
 {
   return arreglo.map(Math.sqrt);
 }
+
 
 /*
 Escribe una función que reciba una cadena de texto y regrese una nueva con la primer letra de cada palabra en mayúscula.
 */
 
-function upCase (str)
+function Capitalizer (str)
 {
-    let newstr =[];
-    newstr.push(str[0].toUpperCase());
+    let mayus_str =[];
+    mayus_str.push(str[0].toUpperCase());
     let sig=false;
-    for (let i=0; i<str.length; i++)
+
+    for (let i=0; i<str.length; i++) //vas checando letra por letra
     {
         
-        if(str[i]==" ")//si hay un espacio vacío
+        if(str[i]==" ") //si hay un espacio entonces es la primer letra de una palabra
         {
-            newstr.push(str[i+1].toUpperCase());//la letra que siga guardala en uppercase
-            sig =true;//informa que se acaba de agregar una mayuscula
+            mayus_str.push(str[i+1].toUpperCase()); //guarda la letra
+            sig =true; //El holer ya fue informado de la nueva mayus
         }
         if(sig==false)
         {
-            newstr.push(str[i+1]);
+            mayus_str.push(str[i+1]);
         }
         
         sig=false;//se reinicia la variable a su valor default
         
     }
-    return newstr.join('');
+
+    return mayus_str.join('');
 }
