@@ -241,22 +241,22 @@ fa
 //Escribe una función que tome una lista de números y devuelva la mediana y la moda.
 function average_mode(arng)
 {
-    let moda = rep(arng)
+    let moda = repetido(arng);
     let ord_lst = bubble_sort(arng);
 
-    if(ord_lst.length%2!=0)//impar
+    if(ord_lst.length%2!=0)
     {
-        return("moda: "+moda+"\n"+"mediana: "+ord_lst[(ord_lst.length-1)/2]);
+        return("moda: "+moda+" "+"mediana: "+ord_lst[(ord_lst.length-1)/2]);
     }
 
     else
     {
         let mediana; 
-        let n1;
-        let n2;
-        n1=ord_lst[(ord_lst.length/2)-1];
-        n2=ord_lst[ord_lst.length/2];
-        mediana=(n1+n2)/2;
+        let n;
+        let m;
+        n=ord_lst[(ord_lst.length/2)-1];
+        m=ord_lst[ord_lst.length/2];
+        mediana=(n+m)/2;
         return ("Moda: " + moda+"\n" + "Mediana: " + mediana);
     }
 }
