@@ -217,31 +217,73 @@ function alpha_order(arng)
 //Impresión de resultado:
 console.log("" + alpha_order(["cadena", "alpha", "tuyo"]))
 
+/*
+fasd
+sdfa
+sfda
+sdaf
+sdfa
+sdaf
+sdfa
+sdfa
+sdfa
 
+sdafsdfa
+sfda
+sdfa
+dsfa
+dsfa
+sdaf
+sdaf
+sd
+fa
+*/
 //Escribe una función que tome una lista de números y devuelva la mediana y la moda.
-function average_mode(lst)
+function average_mode(arng)
 {
-  const contador = {}; 
-    let repeticiones =[];
-    
-    for (let c of arng) //repetidor
+    let moda = rep(arng)
+    let ord_lst = bubble_sort(arng);
+
+    if(ord_lst.length%2!=0)//impar
     {
-      contador[c] = (contador[c] || 0) + 1;
-      repeticiones.push(contador [c]);
+        return("moda: "+moda+"\n"+"mediana: "+ord_lst[(ord_lst.length-1)/2]);
     }
 
-    repeticiones.shift(); //matar el head
-    max=(Math.max.apply(Math,repeticiones)); //usando el contador se encuentra el valor máximo
-
-    for (let c of arng) 
+    else
     {
-      if (contador[c] === max)
-        {
-            moda=c;
-        }
+        let mediana; 
+        let n1;
+        let n2;
+        n1=ord_lst[(ord_lst.length/2)-1];
+        n2=ord_lst[ord_lst.length/2];
+        mediana=(n1+n2)/2;
+        return ("Moda: " + moda+"\n" + "Mediana: " + mediana);
     }
 }
+//Impresión de resultado:
+console.log(average_mode([9, 1, 38, 23, 37, 23, 21, 23, 22, 23]))
 
+/*
+fasd
+sdfa
+sfda
+sdaf
+sdfa
+sdaf
+sdfa
+sdfa
+sdfa
+
+sdafsdfa
+sfda
+sdfa
+dsfa
+dsfa
+sdaf
+sdaf
+sd
+fa
+*/
 
 //Escribe una función que tome una lista de cadenas de texto y devuelva la cadena más frecuente.
 function repetido(arng)
@@ -266,3 +308,40 @@ function repetido(arng)
         }
     }
 }
+//Impresión de resultado:
+console.log("Tres tristes tigres tragaban trigo en un trigal en tres tristes trastos tragaban tres tigres" + 
+rep(["Tres", "tristes", "tigres", "tragaban", "trigo", "en", "un", "trigal",
+      "en", "tres", "tristes", "trastos", "tragaban", "tres", "tigres"]))
+
+
+//Escribe una función que tome un número y devuelva verdadero si es una potencia de dos, falso de lo contrario.
+function squared(num)
+{
+  return (Number.isInteger(Math.log2(num)));
+}
+//Impresión de resultado:
+console.log()
+
+
+//Escribe una función que tome una lista de números y devuelva una nueva lista con todos los números en orden descendente.
+function descending() //anti bubble sort
+{
+  
+  const longitud = lista.length;
+  
+  for (let i = 0; i < longitud - 1; i++)
+  {
+    for (let j = 0; j < longitud - i - 1; j++) 
+    {
+      if (lista[j] < lista[j + 1]) 
+      {
+        const temp = lista[j];
+        lista[j] = lista[j + 1];
+        lista[j + 1] = temp;
+      }
+    }
+  }
+  return lista;
+}
+//Impresión de resultado:
+console.log()
