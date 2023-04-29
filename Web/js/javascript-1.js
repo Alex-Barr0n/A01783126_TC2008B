@@ -275,8 +275,7 @@ function repetido(arng)
 console.log("¿Cuál es la palabra que se repite más en este trabalenguas?" + "\n" + 
 "Tres tristes tigres tragaban trigo en un trigal en tres tristes trastos tragaban tres tigres" + 
 "\n" + "La palabra más repetida es: " +
-repetido(["Tres", "tristes", "tigres", "tragaban", "trigo", "en", "un", "trigal",
-      "en", "tres", "tristes", "trastos", "tragaban", "tres", "tigres"]))
+repetido(["Tres","tristes","tigres","tragaban","trigo","en","un","trigal","en","tres","tristes","trastos","tragaban","tres","tigres"]))
 
 
 //Escribe una función que tome un número y devuelva verdadero si es una potencia de dos, falso de lo contrario.
