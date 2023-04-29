@@ -22,10 +22,10 @@ console.log("En la cabena de caracteres 'abacddbec' la primera letra que no se r
 
 function bubble_sort(lst)
 {
-  const lgnth = lst.length;
-  for (let i=0; i < lgnth-1; i++)
+  const lngth = lst.length;
+  for (let i=0; i < lngth-1; i++)
   {
-    for (let j=0; j < lgnth-i-1; j++)
+    for (let j=0; j < lngth-i-1; j++)
     {
       if (lst[j] > lst[j + 1])
       {
@@ -35,9 +35,10 @@ function bubble_sort(lst)
       }
     }
   }
+  return lst;
 }
 //Impresión de resultado:
-console.log("Si organizamos los números [1,2,3,4,7,323,9] el resultado se ve así: " + bubble_sort([1,2,3,4,7,6,9]))
+console.log("Si organizamos los números [1,2,42,4,7,323,9] el resultado se ve así: " + bubble_sort([1,2,42,4,7,323,9]))
 
 
 /*
@@ -215,75 +216,38 @@ function alpha_order(arng)
   return arng.sort();
 }
 //Impresión de resultado:
-console.log("" + alpha_order(["cadena", "alpha", "tuyo"]))
+console.log("Tengo una lista del pusermercado que quiero ordenar: leche, huevos, agua y arroz, ordenada se vería así: " + 
+             alpha_order(["leche ", "huevos ", "agua ", "arroz "]))
 
-/*
-fasd
-sdfa
-sfda
-sdaf
-sdfa
-sdaf
-sdfa
-sdfa
-sdfa
 
-sdafsdfa
-sfda
-sdfa
-dsfa
-dsfa
-sdaf
-sdaf
-sd
-fa
-*/
+
 //Escribe una función que tome una lista de números y devuelva la mediana y la moda.
 function average_mode(arng)
 {
-    let moda = repetido(arng);
+  
+    let moda=repetido(arng); //había hecho todo un rollo, pero la siguiente consulta es esto
+    
     let ord_lst = bubble_sort(arng);
-
-    if(ord_lst.length%2!=0)
+    
+    if(ord_lst.length%2==0)
     {
-        return("moda: "+moda+" "+"mediana: "+ord_lst[(ord_lst.length-1)/2]);
+      let avg; 
+      let n;
+      let m;
+      n=ord_lst[(ord_lst.length/2)-1];
+      m=ord_lst[ord_lst.length/2];
+      avg=(n+m)/2;
+      return ("La moda es: " + moda + " y la mediana es: " + avg);
     }
-
     else
     {
-        let mediana; 
-        let n;
-        let m;
-        n=ord_lst[(ord_lst.length/2)-1];
-        m=ord_lst[ord_lst.length/2];
-        mediana=(n+m)/2;
-        return ("Moda: " + moda+"\n" + "Mediana: " + mediana);
+      return("moda: "+moda+"\n"+"avg: "+ord_lst[(ord_lst.length-1)/2]);
     }
 }
 //Impresión de resultado:
 console.log(average_mode([9, 1, 38, 23, 37, 23, 21, 23, 22, 23]))
 
-/*
-fasd
-sdfa
-sfda
-sdaf
-sdfa
-sdaf
-sdfa
-sdfa
-sdfa
 
-sdafsdfa
-sfda
-sdfa
-dsfa
-dsfa
-sdaf
-sdaf
-sd
-fa
-*/
 
 //Escribe una función que tome una lista de cadenas de texto y devuelva la cadena más frecuente.
 function repetido(arng)
@@ -307,41 +271,47 @@ function repetido(arng)
             return c;
         }
     }
-}
-//Impresión de resultado:
-console.log("Tres tristes tigres tragaban trigo en un trigal en tres tristes trastos tragaban tres tigres" + 
-rep(["Tres", "tristes", "tigres", "tragaban", "trigo", "en", "un", "trigal",
+}//Impresión de resultado:
+console.log("¿Cuál es la palabra que se repite más en este trabalenguas?" + "\n" + 
+"Tres tristes tigres tragaban trigo en un trigal en tres tristes trastos tragaban tres tigres" + 
+"\n" + "La palabra más repetida es: " +
+repetido(["Tres", "tristes", "tigres", "tragaban", "trigo", "en", "un", "trigal",
       "en", "tres", "tristes", "trastos", "tragaban", "tres", "tigres"]))
 
 
 //Escribe una función que tome un número y devuelva verdadero si es una potencia de dos, falso de lo contrario.
 function squared(num)
 {
-  return (Number.isInteger(Math.log2(num)));
+  if (Number.isInteger(Math.log2(num)))
+  {
+    return "Si es potencia de 2"
+  }
+  else
+    return "No es potencia de 2";
 }
 //Impresión de resultado:
-console.log()
+console.log("El 32 ¿es potencia de dos? " + squared(32))
 
 
 //Escribe una función que tome una lista de números y devuelva una nueva lista con todos los números en orden descendente.
-function descending() //anti bubble sort
+function descending(lst) //anti bubble sort
 {
   
-  const longitud = lista.length;
+  const longitud = lst.length;
   
   for (let i = 0; i < longitud - 1; i++)
   {
     for (let j = 0; j < longitud - i - 1; j++) 
     {
-      if (lista[j] < lista[j + 1]) 
+      if (lst[j] < lst[j + 1]) 
       {
-        const temp = lista[j];
-        lista[j] = lista[j + 1];
-        lista[j + 1] = temp;
+        const temp = lst[j];
+        lst[j] = lst[j + 1];
+        lst[j + 1] = temp;
       }
     }
   }
-  return lista;
+  return lst;
 }
 //Impresión de resultado:
-console.log()
+console.log("Si organizamos los números [1,2,42,4,7,323,9] en orden descendiente el resultado se ve así: " + descending([1,2,42,4,7,323,9]))
