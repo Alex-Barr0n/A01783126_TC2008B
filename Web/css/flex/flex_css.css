@@ -8,6 +8,11 @@ img{
   height: 90px;
 }
 
+body{
+  background-color: black;
+  color:azure;
+}
+
 /* =========================================== */
 /* Class */
 /* =========================================== */
@@ -82,7 +87,8 @@ img{
 .submit
 {
   cursor: pointer;   
-  background-color: #b87d2d;
+  background-color: #DF5890;
+  font-weight: bold;
 }
 
 /* =========================================== */
@@ -90,12 +96,12 @@ img{
 /* =========================================== */
 
 #header_top{
-  background-color: #253f4b;
+  background-color: #3D2C4D;
   color: #ffff;
 }
 
 #header_sub{
-  background-color: #253f4b;
+  background-color: #3D2C4D;
   color: #ffff;
   grid-column: 1 / -1;
   grid-row: 3;
@@ -103,7 +109,7 @@ img{
 
 #main {
   grid-column: 1 / -1;
-  background-color: #b87d2d;
+  background-color: #DF7D37;
   grid-row: 1 / span 8;
 }
 
@@ -124,7 +130,7 @@ img{
 }
 
 #copyright{
-  background-color: #253f4b;
+  background-color: #3D2C4D;
   font-family: arial, helvetica, sans-serif;
   font-size: x-small;
 }
