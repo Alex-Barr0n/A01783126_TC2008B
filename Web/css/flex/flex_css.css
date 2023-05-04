@@ -96,12 +96,12 @@ body{
 /* =========================================== */
 
 #header_top{
-  background-color: #3D2C4D;
+  background-color: #253f4b;
   color: #ffff;
 }
 
 #header_sub{
-  background-color: #3D2C4D;
+  background-color: #253f4b;
   color: #ffff;
   grid-column: 1 / -1;
   grid-row: 3;
@@ -109,7 +109,7 @@ body{
 
 #main {
   grid-column: 1 / -1;
-  background-color: #156F9B;
+  background-color: #b87d2d;
   grid-row: 1 / span 8;
 }
 
@@ -130,7 +130,7 @@ body{
 }
 
 #copyright{
-  background-color: #3D2C4D;
+  background-color: #253f4b;
   font-family: arial, helvetica, sans-serif;
   font-size: x-small;
 }
