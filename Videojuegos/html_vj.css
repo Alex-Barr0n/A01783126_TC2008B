@@ -8,8 +8,7 @@
 body {
   margin: 0px;
   padding: 0px;
-    background-color: #03133C;
-    
+  background-color: #063150;
 }
 
 
@@ -17,16 +16,16 @@ body {
 nav.section {
    /*background-color: #4E2972;*/
   border-style:solid;
-    border-color: white;
-    padding: 10px;
-    margin: 10px;
-    text-align: right;
-    color: azure;
-    
-    background-size: cover;
-    text-align: right;
-    word-spacing: 60px;
-    color: azure;
+  border-color: white;
+  padding: 30px;
+  margin: 10px;
+  text-align: right;
+  color: azure;
+  
+  background-size: cover;
+  text-align: right;
+  word-spacing: 60px;
+  color: azure;
 }
 
 nav a{
