@@ -9,8 +9,7 @@ img{
 }
 
 body{
-  background-color: black;
-  color:azure;
+  background-color: white;
 }
 
 /* =========================================== */
@@ -87,7 +86,7 @@ body{
 .submit
 {
   cursor: pointer;   
-  background-color: #DF5890;
+  background-color: #b87d2d;
   
 }
 
