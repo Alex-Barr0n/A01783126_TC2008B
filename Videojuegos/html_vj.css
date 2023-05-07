@@ -1,8 +1,8 @@
 /* GENERAL */
 *{
   font-family: Garamond, serif;
-    font-size: 22px;
-    color: azure;
+  /*font-family: 'Red Hat Display', sans-serif;*/
+  font-size: 22px;
 }
 
 body {
@@ -13,6 +13,10 @@ body {
 
 main {
     padding: 20px;
+}
+
+nav a{
+  text-decoration: none;
 }
 
 /*CLASSES*/
@@ -32,19 +36,57 @@ nav.section {
   text-align: right;
 }
 
+
+/*ID*/
+
 #gif-drasil {
     position: absolute;
     top: 25px;
-    left: 19px;
+    left: 30px;
     text-align: left;
+    word-spacing: 3px;
 }
 
-nav a{
-  text-decoration: none;
+#grid-gameish {
+  display: grid;
+  height: 600px;
+  align-content: center;
+  grid-template-columns: 6fr 4fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  background-color: #142938;
+  padding: 10px;
+  margin: 10px;
 }
 
-.quimera {
-    margin-top: 50px;
-    text-align: center;
+#grid-gameish > div {
+  background-color: #063150;
+  font-size: 30px;
 }
 
+#grid-gameish > div > h1{
+  color: azure;
+  font-size: 40px;
+}
+
+#gif_ejemplo {
+  text-align: left;
+  padding: 20px;
+}
+
+#gif_explicacion{
+  text-align: center;
+}
+
+#gif_explicacion > p{
+  color:azure;
+  text-align: justify;
+}
+
+#gif_explicacion > input{
+  cursor: pointer;
+  color: azure;
+  background-color: #3D2C4D;
+  height: 50px;
+  width: 200px;
+}
