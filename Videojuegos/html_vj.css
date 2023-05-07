@@ -1,7 +1,6 @@
 /* GENERAL */
 *{
   font-family: Garamond, serif;
-  /*font-family: 'Red Hat Display', sans-serif;*/
   font-size: 22px;
 }
 
@@ -12,20 +11,25 @@ body {
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 nav a{
   text-decoration: none;
 }
 
+p{
+  color:azure;
+  text-align: justify;
+}
+
 /*CLASSES*/
 nav.section {
   border-style:groove;
   border-color: #9256CB;
-  border-width: 4px;
+  border-width: 2px;
 
-  background-color: #063150;
+  /*background-color: #063150;*/
   text-align: right;
   word-spacing: 60px;
   color: azure;
@@ -36,6 +40,15 @@ nav.section {
   text-align: right;
 }
 
+hr.division{
+  border: 1px solid #063150;
+}
+
+h1.titulote{
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+}
 
 /*ID*/
 
@@ -56,11 +69,11 @@ nav.section {
   gap: 10px;
   background-color: #142938;
   padding: 10px;
-  margin: 10px;
 }
 
 #grid-gameish > div {
-  background-color: #063150;
+  background-color: rgba(6, 49, 80, 0);
+  align-content: center;
   font-size: 30px;
 }
 
@@ -76,6 +89,8 @@ nav.section {
 
 #gif_explicacion{
   text-align: center;
+  padding-left: 20px;
+  padding-right: 15px;
 }
 
 #gif_explicacion > p{
@@ -86,7 +101,20 @@ nav.section {
 #gif_explicacion > input{
   cursor: pointer;
   color: azure;
-  background-color: #3D2C4D;
+  background-color: #690730;
   height: 50px;
   width: 200px;
+}
+
+#quienes_somos{
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+
+#quienes_somos > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
