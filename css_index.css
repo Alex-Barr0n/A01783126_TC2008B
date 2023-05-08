@@ -33,17 +33,20 @@
   
   .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
     margin:80px;
   }
+
+  .centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
   
   #grid-item1{
     border: 0px solid rgb(0, 0, 0);
     background-color: #0071bc;
-    color:ghostwhite;
-    padding: 10px;
-    padding-top:0px;
+    color:azure;
     font-size: 30px;
     text-align: center;
     margin-left: 10px;
@@ -53,23 +56,25 @@
   #grid-item2{
     border: 0px solid rgb(0, 0, 0);
     background-color: #2e3192;
-    color:ghostwhite;
-    padding: 10px;
-    padding-top:0px;
+    color:azure;
     font-size: 30px;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
   }
   
-  #grid-item3{
-    border: 0px solid rgb(0, 0, 0);
-    background-color: #151642;;
-    color:ghostwhite;
-    padding: 10px;
-    padding-top:0px;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+#grid-item3{
+  border: 0px solid rgb(0, 0, 0);
+  background-color: #151642;;
+  color:azure;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#grid.item3 > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
