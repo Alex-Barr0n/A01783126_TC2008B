@@ -49,15 +49,15 @@
     text-align: center;
   }
   
-  
+
 /*ID*/
   
-  #loyola_logo {
-      position: absolute;
-      top: 10px;
-      left: 20px;
-      text-align: left;
-  }
+#loyola_logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  text-align: left;
+}
   
   #grid-gameish {
     display: grid;
