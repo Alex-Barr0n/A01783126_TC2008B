@@ -7,7 +7,7 @@
   body {
     margin: 0px;
     padding: 0px;
-    background-color: #142938;
+    background-color: white;
   }
   
   main {
@@ -19,7 +19,7 @@
   }
   
   p{
-    color:azure;
+    color:rgb(33,33,33);
     text-align: justify;
   }
   
@@ -29,10 +29,9 @@
     border-color: #9256CB;
     border-width: 2px;
   
-    /*background-color: #063150;*/
     text-align: right;
     word-spacing: 60px;
-    color: azure;
+    color: rgb(33,33,33);
   
     background-size: cover;
     padding: 30px;
@@ -41,23 +40,22 @@
   }
   
   hr.division{
-    border: 1px solid #063150;
+    border: 1px solid rgb(33,33,33);
   }
   
   h1.titulote{
-    color: azure;
+    color: rgb(33,33,33);
     font-size: 50px;
     text-align: center;
   }
   
   /*ID*/
   
-  #gif-drasil {
+  #loyola_logo {
       position: absolute;
-      top: 25px;
-      left: 30px;
+      top: 10px;
+      left: 20px;
       text-align: left;
-      word-spacing: 3px;
   }
   
   #grid-gameish {
@@ -67,18 +65,18 @@
     grid-template-columns: 6fr 4fr;
     grid-template-rows: 1fr;
     gap: 10px;
-    background-color: #142938;
+    background-color: white;
     padding: 10px;
   }
   
   #grid-gameish > div {
-    background-color: rgba(6, 49, 80, 0);
+    background-color: white;
     align-content: center;
     font-size: 30px;
   }
   
   #grid-gameish > div > h1{
-    color: azure;
+    color: rgb(33,33,33);
     font-size: 40px;
   }
   
@@ -94,13 +92,13 @@
   }
   
   #gif_explicacion > p{
-    color:azure;
+    color:rgb(33,33,33);
     text-align: justify;
   }
   
   #gif_explicacion > input{
     cursor: pointer;
-    color: azure;
+    color: rgb(33,33,33);
     background-color: #690730;
     height: 50px;
     width: 200px;
