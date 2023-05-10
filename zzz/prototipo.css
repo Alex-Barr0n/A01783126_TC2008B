@@ -23,7 +23,7 @@
     text-align: justify;
   }
   
-  /*CLASSES*/
+/*CLASSES*/
   nav.section {
     border-style:groove;
     border-color: #007055;
@@ -49,7 +49,8 @@
     text-align: center;
   }
   
-  /*ID*/
+  
+/*ID*/
   
   #loyola_logo {
       position: absolute;
