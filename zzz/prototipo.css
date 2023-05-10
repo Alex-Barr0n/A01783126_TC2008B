@@ -26,8 +26,8 @@
   /*CLASSES*/
   nav.section {
     border-style:groove;
-    border-color: #9256CB;
-    border-width: 2px;
+    border-color: #007055;
+    border-width: 5px;
   
     text-align: right;
     word-spacing: 60px;
@@ -99,7 +99,7 @@
   #gif_explicacion > input{
     cursor: pointer;
     color: rgb(33,33,33);
-    background-color: #690730;
+    background-color: #42AB82;
     height: 50px;
     width: 200px;
   }
@@ -113,6 +113,20 @@
   
   #quienes_somos > img{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #grid-ubicacion{
+    display: grid;
+    height: 600px;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+
     margin-left: auto;
     margin-right: auto;
   }
