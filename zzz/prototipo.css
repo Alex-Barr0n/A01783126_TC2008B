@@ -1,0 +1,120 @@
+/* GENERAL */
+*{
+    font-family: Garamond, serif;
+    font-size: 22px;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #142938;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  nav a{
+    text-decoration: none;
+  }
+  
+  p{
+    color:azure;
+    text-align: justify;
+  }
+  
+  /*CLASSES*/
+  nav.section {
+    border-style:groove;
+    border-color: #9256CB;
+    border-width: 2px;
+  
+    /*background-color: #063150;*/
+    text-align: right;
+    word-spacing: 60px;
+    color: azure;
+  
+    background-size: cover;
+    padding: 30px;
+    margin: 10px;
+    text-align: right;
+  }
+  
+  hr.division{
+    border: 1px solid #063150;
+  }
+  
+  h1.titulote{
+    color: azure;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  /*ID*/
+  
+  #gif-drasil {
+      position: absolute;
+      top: 25px;
+      left: 30px;
+      text-align: left;
+      word-spacing: 3px;
+  }
+  
+  #grid-gameish {
+    display: grid;
+    height: 600px;
+    align-content: center;
+    grid-template-columns: 6fr 4fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    background-color: #142938;
+    padding: 10px;
+  }
+  
+  #grid-gameish > div {
+    background-color: rgba(6, 49, 80, 0);
+    align-content: center;
+    font-size: 30px;
+  }
+  
+  #grid-gameish > div > h1{
+    color: azure;
+    font-size: 40px;
+  }
+  
+  #gif_ejemplo {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  #gif_explicacion{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+  
+  #gif_explicacion > p{
+    color:azure;
+    text-align: justify;
+  }
+  
+  #gif_explicacion > input{
+    cursor: pointer;
+    color: azure;
+    background-color: #690730;
+    height: 50px;
+    width: 200px;
+  }
+  
+  #quienes_somos{
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+  }
+  
+  #quienes_somos > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
