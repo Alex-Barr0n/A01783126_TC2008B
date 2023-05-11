@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Prototipo: bazar</title>
-    <link rel="preload" href="prototipo.css" as="style">
-    <link rel="stylesheet" href="prototipo.css"> 
+    <title>Prototipo: registro</title>
+    <link rel="preload" href="prototipo_registro.css" as="style">
+    <link rel="stylesheet" href="prototipo_registro.css"> 
 </head>
 
 <!DOCTYPE html>
@@ -18,6 +18,7 @@
         <div id="loyola_logo">
             <img src="imagenes/loyola_logo.png" alt="fundación loyola" width="80" height="80">
         </div>
+        <a href="https://alex-barr0n.github.io/A01783126_TC2008B/zzz/prototipo.html" target="_blank"><span style="color: rgb(33,33,33);">Inicio</span></a>
         <a href="https://www.fundacionloyola.mx/somos" target="_blank"> <span style="color: rgb(33,33,33); word-spacing: normal;">¿Quiénes somos?</span></a>
         <a href="https://www.fundacionloyola.mx/contacto" target="_blank"> <span style="color: rgb(33,33,33);">Contáctanos</span></a>
     </nav>
@@ -27,18 +28,29 @@
         
         <div id="grid-portada">
             <div id="poster">
-                <img src="imagenes/poster_bazar.jpeg" width="700" height="560">
+                <img src="imagenes/poster_registro.jpeg" width="700" height="560">
             </div>
             <div id="explicacion" style="background-color: white;">
-                <h1>Bazar</h2>
-                <p>¿Te gustan los bazares? ¿Te interesa ayudar a diferentes comunidades? Te invitamos a nuestro mercado de comercio justo.</p>
-                
-                <p>En este bazar podr&aacute;s encontrar desde <i>productos</i> hasta <i>productos</i>, todos producidos por nuestros beneficiarios.</p>
-                
-                <p>El bazar además de recaudar fondos, también apoyará a emprendimientos y negocios locales de las comunidades vulnerables</p>
+                <h1>Registro</h2>
+                    <p>¡Nos alegra mucho saber que te interesa nuestro proyecto!</p>
+                    <p>Por favor proporcianos nuestros datos para poder recibirte.</p>
+                    <br>
+                    <form action="/action_page.php">
+                        <label for="fname">Nombre:</label>
+                        <input type="text" id="fname" name="fname" placeholder="Alex" autocomplete="off" required autofocus><br><br>
+                        
+                        <label for="lname">Apellido:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Hernández" autocomplete="off" required autofocus><br><br>
+                        
+                         <label for="email">Correo:</label>
+                        <input type="email" id="email" name="email" placeholder="tu.correo@ejemplo.com" autocomplete="off" required autofocus> <br><br>
+                        
+                        <input type="submit">
+                        <input type="reset">
+                    </form> 
+
                 <br>
-                <input type="button" onclick="alert('📎Estamos trabajando en ello.')" value="¡Quiero ir!">
-            </div>
+                </div>
         </div>
 
         <br>
