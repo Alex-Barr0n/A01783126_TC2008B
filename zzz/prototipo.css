@@ -99,14 +99,6 @@
     text-align: justify;
   }
   
-  #explicacion > input{
-    cursor: pointer;
-    color: rgb(33,33,33);
-    background-color: #42AB82;
-    height: 50px;
-    width: 200px;
-  }
-  
   #donde_es{
     text-align: justify;
     padding-top: 10px;
@@ -130,4 +122,12 @@
     gap: 10px;
     background-color: white;
     padding-top: 10px;
+  }
+
+  #quiero_ir{
+    cursor: pointer;
+    color: rgb(33,33,33);
+    background-color: #42AB82;
+    height: 50px;
+    width: 200px;
   }
