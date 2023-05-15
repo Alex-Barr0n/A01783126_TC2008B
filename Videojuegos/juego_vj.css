@@ -1,0 +1,54 @@
+/* GENERAL */
+*{
+    font-family: Garamond, serif;
+    font-size: 22px;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #142938;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  nav a{
+    text-decoration: none;
+  }
+  
+  p{
+    color:azure;
+    text-align: justify;
+  }
+  
+  /*CLASSES*/
+  nav.section {
+    border-style:groove;
+    border-color: #9256CB;
+    border-width: 2px;
+  
+    /*background-color: #063150;*/
+    text-align: right;
+    word-spacing: 60px;
+    color: azure;
+  
+    background-size: cover;
+    padding: 30px;
+    margin: 10px;
+    text-align: right;
+  }
+  
+  hr.division{
+    border: 1px solid #063150;
+  }
+  
+  h1.titulote{
+    color: azure;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  /*ID*/
+  
