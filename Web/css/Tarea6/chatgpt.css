@@ -1,0 +1,53 @@
+/*
+<p class="gpt"></p>
+<p class="bing"></p>
+<p class="edri"></p>
+<p class="copilot"></p>
+*/
+
+/*General*/
+
+*{
+    font-family: Garamond, serif;
+    font-size: 22px;
+  }
+  
+  body {
+    margin: 10px;
+    padding: 10px;
+    color: azure;
+    background-color: #171717;
+  }
+
+  h2{
+    color: rgb(245, 220, 220);
+  }
+
+  a{
+    color: #858585;
+    text-decoration: none;
+  }
+
+  sup{
+    font-size: small;
+  }
+
+/*Class*/
+  .cuadrado {
+    width: 160px;
+    height: 10px;
+    border: 1px solid #000; 
+    }
+  .edri{
+    color: #AF284C;
+  }
+  .gpt{
+    color: #10A37F;
+  }
+  .bing{
+    color: #1080A3;
+  }
+  .copilot{
+    color: #8610A3;
+  }
+/*ID*/

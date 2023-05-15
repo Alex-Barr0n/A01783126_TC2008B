@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ChatGPT</title>
+  <link rel="preload" href="../../css/Tarea6/chatgpt.css" as="style">
+  <link rel="stylesheet" href="../../css/Tarea6/chatgpt.css"> 
+</head>
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Instrucciones</h2>
+    <p>Utiliza ChatGPT y github Copilot para resolver la siguiente actividad. Antes de hacer los ejercicios, contesta las siguientes preguntas. Pregúntale a ChatGPT las preguntas, y verifica que lo que haya generado es correcto. Cuando sea necesario, agrega un ejemplo de código. Incluye una fuente que valide o invalide lo que generó. Agrega elementos de HTML con tus respuestas. (Protip: usa ChatGPT para que las respuestas las ponga directamente en elementos de html.)</p>
+    <p>Terminando las preguntas y los ejercicios, documenta tu experiencia con las herramientas en la sección de conclusiones.</p>
+    <br>
+
+    <!--TITULO-->
+
+    <h2>C&oacute;gido de colores</h2>
+    <p>Copilot: Al escribir "&lt;p" la misma herramienta completaba con "class copilot" y la respuesta.</p><div class="cuadrado" style="background-color: #8610A3;"></div></p>
+    <p>ChatGPT: Utilicé dos chats: el primero para las preguntas y el segundo para pasar las preguntas a formato html. En algunas ocasiones se hizo la pregunta y una aclaración para que no usara "var".</p><div class="cuadrado" style="background-color: #10A37F;"></div>
+    <p>Bing AI: Esta inteligencia proporciona fuentes.</p><div class="cuadrado" style="background-color: #1080A3;"></div>
+    <p>Alex: Estoy investigando por cuentas externas.</p><div class="cuadrado" style="background-color: #AF284C;"></div>
+    <p>Fuentes: De este color serán tanto mis fuentes como las de Bing.</p><div class="cuadrado" style="background-color: #858585"></div>
+    <br>
+    <br>
+
+    <!--TITULO-->
+
+    <h2>Preguntas y respuestas</h2>
+    <h3>¿Qué es el DOM?</h3>
+    <p class="copilot">The structure of an HTML document (Document Object Model).</p>
+    <!--q: What is DOM?-->
+    <!--a: The structure of an HTML document (Document Object Model).-->
+    <p class="gpt">El DOM &#40;Modelo de Objetos del Documento, por sus siglas en inglés&#41; es una interfaz de programación de aplicaciones (API) para documentos HTML y XML. En términos simples, el DOM representa la estructura de un documento HTML/XML como un árbol de objetos.</p>
+    <p class="bing">DOM son las siglas de Document Object Model (Modelo de Objeto de Documento), que es la estructura del documento HTML. <a href=https://lenguajejs.com/javascript/dom/que-es/ target="_blank">Una página HTML está formada por múltiples etiquetas HTML, anidadas una dentro de otra, formando un árbol de etiquetas relacionadas entre sí, que se denomina árbol DOM &#40;o simplemente DOM &#41;. </a> </p>
+    <p class="edri">La estrucura de un documento HTML &#40;Document Object Model&#41;. <a href= https://lenguajejs.com/javascript/dom/que-es target="_blank">Fuente aquí.</a></p>
+    <br><!---->
+
+    <h3>¿Qué es un nodo?</h3>
+    <p class="copilot">In the context of HTML and the DOM, a node is an object that represents an element, attribute, text or comment in an HTML document. Each DOM node is an object that has properties and methods that developers can use to access and manipulate the content of the web page.</p>
+
+    <p class="gpt">En el contexto de HTML y el DOM, un nodo es un objeto que representa un elemento, atributo, texto o comentario en un documento HTML. Cada nodo del DOM es un objeto que tiene propiedades y métodos que los desarrolladores pueden utilizar para acceder y manipular el contenido de la página web.</p>
+    <p class="gpt">Los elementos HTML, como &lt;div&gt;, &lt;p&gt;, &lt;img&gt;, son nodos del DOM que se utilizan para representar diferentes partes de la página web. Cada uno de estos elementos es un nodo que tiene propiedades como <code>id</code>, <code>class</code>, <code>style</code> y métodos como <code>appendChild()</code>, <code>removeChild()</code>, que se pueden usar para modificar su contenido y estructura.</p>
+    <p class="gpt">Además de los elementos HTML, el DOM también tiene nodos para representar otros tipos de contenido en un documento HTML, como los atributos (<code>id</code>, <code>class</code>, <code>src</code>, etc.), el texto y los comentarios. Cada uno de estos nodos tiene sus propias propiedades y métodos que se pueden utilizar para acceder y manipular su contenido.</p>
+    <p class="gpt">En resumen, un nodo en HTML y el DOM es un objeto que representa un elemento, atributo, texto o comentario en un documento HTML. Los desarrolladores pueden acceder y manipular estos nodos utilizando diferentes métodos y propiedades proporcionados por la API del DOM.</p>
+
+    <p class="bing">En el contexto del DOM, un nodo es un único punto en el árbol de nodos. <a href=https://developer.mozilla.org/es/docs/Glossary/Node/DOM target="_blank">Los nodos pueden ser varias cosas: el documento mismo, elementos, texto y comentarios.</a>
+        <a href=https://keepcoding.io/blog/que-es-un-nodo-en-el-dom/ target="_blank">Dicho de manera simple, un nodo es una etiqueta HTML sobre la que vamos a poder realizar operaciones de lectura y de escritura.</a>
+    </p>
+
+    <p class="edri">Una etiqueta HTML para escribir y leer que representa un elemento. <a href= https://keepcoding.io/blog/que-es-un-nodo-en-el-dom/#:~:text=Dicho%20de%20manera%20simple%2C%20un,de%20lectura%20y%20de%20escritura. target="_blank">1 </a><a href=https://developer.mozilla.org/es/docs/Glossary/Node/DOM target="_blank">2</a></p> 
+    
+    <br><!---->
+
+
+    <h3>¿Cómo se accede a un elemento del DOM?</h3>
+    <p class="copilot">You can access an element from the DOM by using the getElementById() method.</p>
+    <!--q: How to access an element from the DOM?
+    a: You can access an element from the DOM by using the getElementById() method.-->
+    <p class="gpt">Para acceder a un elemento del DOM, puedes utilizar diferentes métodos y propiedades proporcionados por la API del DOM. Aquí te presento algunos enfoques comunes para acceder a un elemento del DOM:</p>
+
+    <ol class="gpt">
+      <li>
+        <p>Acceso mediante el ID del elemento: Si conoces el ID único de un elemento, puedes utilizar el método <code>getElementById()</code> para obtener una referencia a ese elemento. Por ejemplo:</p>
+        
+        <pre><code class="javascript">
+            let element = document.getElementById("elementId");</code></pre>
+      </li>
+      
+      <li>
+        <p>Acceso mediante el nombre de la etiqueta: Si deseas obtener una referencia a todos los elementos con una etiqueta HTML específica, puedes utilizar el método <code>getElementsByTagName()</code> para obtener una lista de elementos con esa etiqueta. Luego, puedes acceder al elemento deseado utilizando su índice. Por ejemplo:</p>
+        
+        <pre><code class="javascript">
+        let elements = document.getElementsByTagName("p");
+        let element = elements[0]; // Accede al primer párrafo (&lt;p&gt;) encontrado</code></pre>
+      </li>
+      
+      <li>
+        <p>Acceso mediante la clase del elemento: Si deseas obtener una referencia a todos los elementos que tienen una clase CSS específica, puedes utilizar el método <code>getElementsByClassName()</code> para obtener una lista de elementos con esa clase. Al igual que con <code>getElementsByTagName()</code>, puedes acceder al elemento deseado utilizando su índice. Por ejemplo:</p>
+        
+        <pre><code class="javascript">
+        let elements = document.getElementsByClassName("className");
+        let element = elements[0]; // Accede al primer elemento con la clase "className"</code></pre>
+      </li>
+      
+      <li>
+        <p>Acceso mediante el selector CSS: Si estás familiarizado con los selectores CSS, puedes utilizar el método <code>querySelector()</code> o <code>querySelectorAll()</code> para acceder a elementos del DOM utilizando un selector CSS. <code>querySelector()</code> devuelve el primer elemento que coincide con el selector, mientras que <code>querySelectorAll()</code> devuelve una lista de todos los elementos que coinciden. Por ejemplo:</p>
+        
+        <pre><code class="javascript">
+        let element = document.querySelector("#elementId"); // Accede al elemento con el ID "elementId"
+        let elements = document.querySelectorAll(".className"); // Accede a todos los elementos con la clase "className"</code></pre>
+      </li>
+    </ol>
+    
+    <p class="gpt">Estos son solo algunos de los métodos más utilizados para acceder a elementos del DOM. Ten en cuenta que la elección del método dependerá de la estructura y los requisitos específicos de tu documento HTML.</p>
+    <br><!---->
+
+
+    <h3>¿Cómo se modifica un elemento del DOM?</h3>
+    <p class="copilot">You can modify an element from the DOM by using the innerHTML property.</p>
+
+    <p class="gpt">Para modificar un elemento del DOM, puedes utilizar diferentes métodos y propiedades proporcionados por la API del DOM. Aquí tienes algunos pasos generales para modificar un elemento del DOM:</p>
+    <ol class="gpt">
+      <li>Obtén una referencia al elemento que deseas modificar. Puedes hacer esto utilizando métodos como <code>getElementById()</code>, <code>getElementsByClassName()</code>, <code>getElementsByTagName()</code>, o <code>querySelector()</code> para seleccionar el elemento según su ID, clase, etiqueta o selector CSS.</li>
+      <li>Una vez que tengas una referencia al elemento, puedes acceder y modificar sus propiedades y atributos. Algunas de las propiedades comunes que puedes modificar incluyen <code>textContent</code>, <code>innerHTML</code>, <code>value</code>, <code>src</code>, <code>href</code>, entre otras, dependiendo del tipo de elemento.</li>
+      <li>Utiliza los métodos proporcionados por el DOM para realizar cambios en el elemento. Por ejemplo, puedes utilizar <code>appendChild()</code> para agregar un nuevo elemento como hijo, <code>removeChild()</code> para eliminar un hijo existente, <code>setAttribute()</code> para modificar un atributo, <code>classList</code> para añadir o eliminar clases, entre otros.</li>
+    </ol>
+    <p class="gpt">Aquí hay un ejemplo sencillo que muestra cómo modificar el contenido de un elemento &lt;p&gt; utilizando JavaScript:</p> 
+    <img src="../../Imagenes/ss-mod_dom_gpt.png" alt="Modificando el contenido de un elemento &lt;p&gt; utilizando JavaScript." width="500" height="400">
+    <p><sup>En este caso ChatGPT utilizó "var" ya que solo funciona ejemplificar. Lo dejaré así ya que es fiel a la idea de este ejercicio.</sup></p>
+    <p class="gpt">En este ejemplo, se obtiene una referencia al elemento &lt;p&gt; mediante su ID utilizando <code>getElementById()</code>. Luego, se utiliza la propiedad <code>textContent</code> para modificar el contenido del párrafo y cambiarlo a "Este es el nuevo contenido del párrafo".</p>
+    <p class="gpt">Recuerda que estos son solo ejemplos básicos, y el DOM ofrece muchas más funcionalidades para modificar elementos, estilos, eventos, entre otros.</p>
+    </p>
+    <br><!----> 
+
+    <h3>¿Cuál es la diferencia entre getElementby* y querySelector*?</h3>
+    <p class="copilot">The difference between getElementby* and querySelector* is that getElementby* returns the first element that matches the specified ID, class, tag name, etc. while querySelector* returns the first element that matches the specified CSS selector.</p>
+
+    <p class="gpt">La diferencia principal entre los métodos <code>getElementBy*</code> y <code>querySelector*</code> reside en la forma en que seleccionan y devuelven los elementos del DOM.</p>
+    <p class="gpt">Los métodos <code>getElementBy*</code> (como <code>getElementById</code>, <code>getElementsByTagName</code> y <code>getElementsByClassName</code>) son métodos más antiguos y se utilizan para seleccionar elementos del DOM en función de criterios específicos, como el ID, la etiqueta o la clase. Estos métodos devuelven una colección en vivo de elementos que coinciden con los criterios de selección. Una colección en vivo significa que si se realizan cambios en el DOM después de haber obtenido la colección, la colección se actualizará automáticamente para reflejar los nuevos elementos que cumplan los criterios de selección. Sin embargo, las colecciones devueltas por estos métodos no son arrays, sino estructuras de datos denominadas "HTMLCollection" o "NodeList".</p>
+    <p class="gpt">Por otro lado, los métodos <code>querySelector*</code> (como <code>querySelector</code> y <code>querySelectorAll</code>) son métodos más modernos y poderosos introducidos con CSS Selectors Level 3. Estos métodos utilizan selectores CSS para seleccionar elementos del DOM. Los selectores CSS permiten una mayor flexibilidad y precisión en la selección de elementos en comparación con los métodos <code>getElementBy*</code>. <code>querySelector</code> devuelve el primer elemento que coincide con el selector especificado, mientras que <code>querySelectorAll</code> devuelve una colección estática (no en vivo) de todos los elementos que coinciden con el selector. La colección devuelta por <code>querySelectorAll</code> es de tipo "NodeList".</p>
+    <p class="gpt">En resumen, la diferencia principal es que los métodos <code>getElementBy*</code> seleccionan elementos del DOM según criterios específicos (como ID, etiqueta o clase) y devuelven colecciones en vivo de elementos, mientras que los métodos <code>querySelector*</code> utilizan selectores CSS para seleccionar elementos y devuelven colecciones estáticas de elementos que coinciden. Los métodos <code>querySelector*</code> son más flexibles y poderosos, especialmente cuando se trata de selecciones más complejas basadas en selectores CSS.</p>
+    <br><!---->
+
+    <h3>¿Qué es un evento?</h3>
+    <p class="copilot">An event is an action that occurs as a result of user interaction with the web page.</p>
+
+    <p class="gpt">Un evento en el contexto de la programación se refiere a cualquier acción o suceso que ocurre dentro de un programa o aplicación y que puede ser detectado y manejado por el código. Los eventos pueden ser desencadenados por diversas interacciones del usuario, como hacer clic en un botón, mover el mouse, presionar una tecla, entre otros, o pueden ser generados por el propio sistema o la aplicación, como cargar una página, recibir datos de una solicitud HTTP, etc.</p>
+    <p class="gpt">Cuando ocurre un evento, se puede ejecutar una función o un conjunto de instrucciones específicas que están asociadas a ese evento. Este proceso se conoce como "manejo de eventos". El manejo de eventos permite que las aplicaciones respondan y realicen acciones específicas en función de las interacciones del usuario o de otras condiciones definidas.</p>
+    <p class="gpt">En la programación web, los eventos son fundamentales para la interactividad de las páginas y la respuesta a las acciones del usuario. Los lenguajes de programación como JavaScript permiten detectar y manejar eventos utilizando diferentes métodos y técnicas. Por ejemplo, se pueden utilizar event listeners (escuchadores de eventos) para registrar y responder a eventos específicos en elementos HTML, como hacer clic en un botón o enviar un formulario.</p>
+    <p class="gpt">En resumen, un evento es un suceso o acción que ocurre en un programa o aplicación y que puede ser detectado y manejado por el código. Los eventos son esenciales para la interactividad y la respuesta a las acciones del usuario en aplicaciones y páginas web.</p>
+    <br><!---->
+
+    <h3>¿Qué es un listener?</h3>
+    <p class="copilot">A listener is a function that is called when an event occurs.</p>
+
+    <p class="gpt">En el contexto de la programación, un listener (también conocido como "escuchador" o "manejador de eventos") es una función o método que se utiliza para detectar y responder a eventos específicos que ocurren en un programa o aplicación. Los listeners se utilizan comúnmente en el desarrollo web para capturar y manejar eventos en elementos HTML, como hacer clic en un botón, mover el mouse, presionar una tecla, etc.</p>
+    <p class="gpt">Un listener se asocia a un evento particular y se registra en un elemento específico del DOM. Cuando ocurre ese evento en el elemento objetivo, el listener es activado y la función o el código asociado a él se ejecuta.</p>
+    <p class="gpt">El proceso de registrar un listener en un elemento se conoce como "asignación de eventos" o "vinculación de eventos". El listener puede ser asignado utilizando métodos proporcionados por el lenguaje de programación utilizado, como JavaScript. Al asignar un listener, se especifica el tipo de evento al que se quiere responder y la función que se debe ejecutar cuando ocurra dicho evento.</p>
+    <p class="gpt">Por ejemplo, en JavaScript, se puede asignar un listener de clic a un botón utilizando el método <code>addEventListener()</code>. El listener capturará el evento de clic en el botón y ejecutará la función definida cuando ocurra:</p>
+    <img src="../../Imagenes/ss-listener_gpt.png" alt="Que es un evento (chatgpt)" width="500px" height="201.16">
+    <p class="gpt">En este ejemplo, se asigna un listener de clic al botón con el ID "myButton". Cuando se haga clic en el botón, se ejecutará la función <code>handleClick()</code> y se imprimirá "Se hizo clic en el botón" en la consola.</p>
+    <p class="gpt">Los listeners permiten que las aplicaciones respondan de forma interactiva a las acciones del usuario o a otros eventos específicos. Proporcionan un mecanismo flexible para capturar y manejar eventos en tiempo real, lo que contribuye a la interactividad y funcionalidad de las aplicaciones y sitios web.</p>
+
+    <br><!---->
+
+    <h3>¿Qué es un callback?</h3>
+    <p class="copilot">A callback is a function that is passed as an argument to another function.</p>
+    <br><!---->
+
+    <h3>¿Qué es un objeto de evento?</h3>
+    <p class="copilot">An event object is an object that contains information about an event.</p>
+    <br><!---->
+</body>
+</html>
