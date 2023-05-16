@@ -16,7 +16,7 @@
 
 <p>1. Modifica el siguiente elemento para mostrar la posición del mouse en el documento:</p>
 <p id="mousePosition">Posición del mouse:</p><!-- Path: Web\html\Tarea6\codigo_gpt.html -->
-
+<br>
 <!----------------------------------------------------------------------------------------->
 
 <p>2. Al dar click al siguiente botón, obtén el nombre y apellido de las siguientes cajas de texto, y agrega, después del botón, un elemento que tenga el nombre completo.</p>
@@ -31,25 +31,101 @@
 <input type="text" id="lastName"></p>
 <button id="submitBtn" onclick="getFullName()">Submit</button>
 <p id="fullNameResult"></p>
-
+<br>
 <!----------------------------------------------------------------------------------------->
 
 <p>3. Agrega el código para agregar una fila, o una columna, a la siguiente tabla al dar click al botón correspondiente.</p>
-<p>No pudo, le dije como 5 veces lo que estba haciendo mal y no corrigi&oacute; nada, me confundi&oacute; dem&aacute;s. Ni siquiera me voy a molestar con su respuesta.</p>
+<p>Le ped&iacute; a chat GPT la respuesta con el proceso normal de pedir que haga el c&oacute;digo, no pudo.</p>
+<p>Sin embargo, pude empezar mi propio c&oacute;digo, estaba mal pero utilice a ChatGPT para que me apuntara las correcciones.</p>
+<p>Despu&eacute;s de eso intent&eacute; otra estrategia para preguntarle y me dio el siguiente c&oacute;digo, el cual modifiqu&eacute; y termin&oacute; as&iacute;:</p>
+<table id="miTabla" border="1">
+    <tr>
+      <td>Celda </td>
+      <td>Celda </td>
+      <td>Celda </td>
+    </tr>
+    <tr>
+      <td>Celda </td>
+      <td>Celda </td>
+      <td>Celda </td>
+    </tr>
+  </table>
+  <br>
+  <button id="agregarFila">Agregar fila</button>
+  <button id="agregarColumna">Agregar columna</button>
+<br>
+<!----------------------------------------------------------------------------------------->
 
-<p>3. Agrega el código para agregar una fila, o una columna, a la siguiente tabla al dar click al botón correspondiente.</p>
-        <table id="sampleTable">
-            <tr>
-                <td>Row 1 Column 1</td>
-                <td>Row 1 Column 2</td>
-            </tr>
-            <tr>
-                <td>Row 2 Column 1</td>
-                <td>Row 2 Column 2</td>
-            </tr>
-        </table><br>
-        <input id="btn-insert-r" type="button" value="Insert row">
-        <input id="btn-insert-c" type="button" value="Insert column">
+<p>4. Incluye dos cajas de input, para solicitar al usuario la posición de la fila y columna de la siguiente tabla, y otra para solicitar un texto. Al apretar el botón, actualiza el contenido de esa tabla en la posición que solicitaste, con la cadena de texto que solicitaste.</p>
+
+<table id="tabla">
+    <tr>
+      <td>Texto 1</td>
+      <td>Texto 2</td>
+      <td>Texto 3</td>
+    </tr>
+    <tr>
+      <td>Texto 4</td>
+      <td>Texto 5</td>
+      <td>Texto 6</td>
+    </tr>
+    <tr>
+      <td>Texto 7</td>
+      <td>Texto 8</td>
+      <td>Texto 9</td>
+    </tr>
+  </table>
+  
+  <br>
+  
+  <label for="fila">Fila:</label>
+  <input type="number" id="fila">
+  
+  <label for="columna">Columna:</label>
+  <input type="number" id="columna">
+  
+  <label for="texto">Texto:</label>
+  <input type="text" id="texto">
+  
+  <button id="actualizar">Actualizar</button>
+
+  <br>
+
+<!----------------------------------------------------------------------------------------->
+<p>5. Agrega el código para quitar o agregar elementos a la lista de opciones. Los colores pueden ser aleatorios.</p>
+  
+<select id="lista">
+  <option value="rojo">Rojo</option>
+  <option value="verde">Verde</option>
+  <option value="azul">Azul</option>
+</select>
+
+<button id="agregar">Agregar</button>
+<button id="quitar">Quitar</button>
+
+<script src="script.js"></script>
+<br>
+
+<!----------------------------------------------------------------------------------------->
+<p>6. Al poner el mouse encima de la siguiente imagen, genera dos números aleatorios entre 300 y 600 para el width y height de una imagen. Reemplaza la imagen de placeholder por otra similar con el tamaño random que generaste. El evento solo se dispara cuando el mouse entra en la imagen.</p>
+<img id="imagen" class="random-image" src="placeholder.jpg">
+<p>Este caso no funciona como lo pide precisamente &#40;aunque t&eacute;cnicamente si es una imagen&#41;, pero es <b>muy</b> &uacute;til al momento de calcular tamaños de im&aacute;genes, y como lo hago muy seguido lo voy a dejar. Al final del d&iacute;a el chiste de ChatGPT es que nos sea &uacute;til como herramienta.</p>
+<br>
+
+<!----------------------------------------------------------------------------------------->
+<table>
+  <tr>
+    <td></td>
+    <td></td>
+    <th rowspan="2" style="font-size:100px">&#128206;</th>
+    <td class="turco">Eso es todo por hoy. Gracias a nuestros amigos GPT y Copilot por ayudarnos con la tarea de hoy.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td class="turco"> ¡Hasta luego! <a href="https://alex-barr0n.github.io/A01783126_TC2008B/Web/html/Tarea6/chatgpt.html" target="_blank">&#40;Has clic aqu&iacute; para volver a la p&aacute;gina anterior&#41;.</a></td>
+  </tr>
+</table>
 
 </body>
 </html>

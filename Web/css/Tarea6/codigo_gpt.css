@@ -19,3 +19,12 @@
   sup{
     font-size: small;
   }
+
+  a{
+    color: rgb(105, 157, 156);
+  }
+
+  .turco{
+    font-size:20px;
+    color:rgb(121, 201, 199);
+  }

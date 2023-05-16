@@ -137,6 +137,12 @@
     <div class="bing">
       <p><u>Para modificar un elemento del DOM se puede hacer una de las siguientes cosas: seleccionar elementos HTML, añadir o borrar oyentes de eventos, añadir, comprobar o borrar clases, añadir, cambiar o borrar atributos y añadir o borrar elementos HTML.</u> <a href="https://bing.com/search?q=%c2%bfC%c3%b3mo+se+modifica+un+elemento+del+DOM%3f"><sup>6</sup></a></p>
     </div>
+
+    <div class="edri">
+      <p>Existen dos selectores: querySelector y querySelectorALL. La primera indica un elemento y la segunda realiza m&uacute;ltiples selecciones.<a href=https://jordigomper.github.io/myblog/javascript/2017/06/26/Introduccion-DOM-como-modificarlo.html target="_blank"><sup>f</sup></a><sup></sup></p>
+      <pre><code class="javascript">
+              let el = document.querySelector("div.user-panel.main input[name='login']");</code></pre>
+    </div>
     <br><!--------------------------------------------------pregunta-------------------------------------------------->
 
     <h3>¿Cuál es la diferencia entre getElementby* y querySelector*?</h3>
@@ -153,6 +159,14 @@
       <p>Los métodos getElementById, getElementsByClassName y getElementsByTagName son métodos especializados que permiten recuperar elementos del DOM a través de su ID, clase o nombre de etiqueta, respectivamente. <u> Por otro lado, los métodos querySelector y querySelectorAll son más versátiles y permiten recuperar elementos del DOM utilizando selectores CSS. </u></p>
       <p><u>Una diferencia importante entre estos métodos es que getElementById y querySelector retornan un único elemento, mientras que getElementsByClassName, getElementsByTagName y querySelectorAll retornan una lista de elementos.</u> <a href="https://es.stackoverflow.com/questions/22538/diferencia-entre-queryselector-queryselectorall-getelementbyid-getelementbyta"><sup>7</sup></a></p>
     </div>
+
+    <div class="edri">
+      <p>El primer m&eacute;todo puede buscar un elemento seg&uacute;n nombre, <i>ID</i> o por etiqueta. O sea que busca a través del DOM hasta que haya una coincidencia con los par&aacute;metros.</p>
+      <p>Si es que se utiliza getElementsByTagName&#40;"p"&#41;&#59; va encontrar todos los p&aacute;rrafos. En este caso no lo voy a hacer porque hay demasiado, pero el c&oacute;digo se ve as&iacute;:</p>
+      <pre><code class="javascript">
+              let pa parrafos = document.getElementsByTagName&#40;"p"&#41;&#59;
+              console.log&#40;parrafos&#41;&#59;</code></pre>
+    </div>
     <br><!--------------------------------------------------pregunta-------------------------------------------------->
 
     <h3>¿Qué es un evento?</h3>
@@ -168,6 +182,9 @@
     <div class="bing">
       <p><u>Un evento en Javascript es una acción o suceso que ocurre en el sistema que estás programando o en el navegador, y que te informa para que tu código pueda reaccionar ante ellos1. Por ejemplo, si el usuario hace clic en un botón o pulsa una tecla, se produce un evento1. Los eventos se pueden detectar y usar en los objetos del DOM y en el objeto window1.</u> <a href="https://quejava.com/evento-javascript/"><sup>8</sup></a></p>
     </div>
+
+    <div class="edri">
+      <p>Un evento es una acci&oacute;n que ocurre como resultado de la interacci&oacute;n del usuario con la p&aacute;gina web. Por ejemplo, hacer clic en un bot&oacute;n, mover el mouse o presionar una tecla.</p>
     <br><!--------------------------------------------------pregunta-------------------------------------------------->
 
     <h3>¿Qué es un listener?</h3>
