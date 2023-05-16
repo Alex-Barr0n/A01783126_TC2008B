@@ -1,0 +1,21 @@
+/*General*/
+
+*{
+    font-family: Garamond, serif;
+    font-size: 22px;
+  }
+  
+  body {
+    margin: 10px;
+    padding: 10px;
+    color: azure;
+    background-color: #171717;
+  }
+
+  h2{
+    color: rgb(245, 220, 220);
+  }
+
+  sup{
+    font-size: small;
+  }

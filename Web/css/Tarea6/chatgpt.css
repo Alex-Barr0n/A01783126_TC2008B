@@ -23,31 +23,92 @@
     color: rgb(245, 220, 220);
   }
 
-  a{
+  /*a{
     color: #858585;
     text-decoration: none;
+  }*/
+
+  a{
+    color: azure;
+    text-decoration-style: none;
   }
 
   sup{
     font-size: small;
   }
 
+  u{
+    text-decoration-style: dotted;
+  }
+
 /*Class*/
   .cuadrado {
     width: 160px;
     height: 10px;
-    border: 1px solid #000; 
+    border-top-style: groove;
+    border-bottom-style: groove;
     }
+
   .edri{
-    color: #AF284C;
+    border-top-style: groove;
+    border-top-color: #AF284C;
+    border-top-width: 4px;  
+
+    border-bottom-style: groove;
+    border-bottom-color: #AF284C;
+    border-bottom-width: 4px; 
+
+    margin-top:10px;
+    margin-bottom:10px;
   }
+
   .gpt{
-    color: #10A37F;
+    border-top-style: groove;
+    border-top-color: #10A37F;
+    border-top-width: 4px; 
+
+    border-bottom-style: groove;
+    border-bottom-color: #10A37F;
+    border-bottom-width: 4px; 
+
+    margin-top:10px;
+    margin-bottom:10px;
   }
+
   .bing{
-    color: #1080A3;
+    border-top-style: groove;
+    border-top-color: #1080A3;
+    border-top-width: 4px;  
+
+    border-bottom-style: groove;
+    border-bottom-color: #1080A3;
+    border-bottom-width: 4px; 
+
+    margin-top:10px;
+    margin-bottom:10px;
   }
+
   .copilot{
-    color: #8610A3;
+    border-top-style: groove;
+    border-top-color: #a017c2;
+    border-top-width: 4px;
+
+    border-bottom-style: groove;
+    border-bottom-color: #a017c2;
+    border-bottom-width: 4px;
+
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  .referencia{
+    text-decoration: dotted;
+  }
+
+  .lil_code{
+    border: #10A37F;
+    border-style: thin;
+    border-color: gray;
+    border-radius: 40%;
   }
 /*ID*/
