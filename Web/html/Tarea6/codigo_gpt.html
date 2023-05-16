@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ChatGPT</title>
+<title>código</title>
   <link rel="preload" href="../../css/Tarea6/codigo_gpt.css" as="style">
   <link rel="stylesheet" href="../../css/Tarea6/codigo_gpt.css"> 
   <script src="../../js//codigo_gpt.js"></script>
@@ -10,7 +10,46 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h2>Ejercicios de c&oacute;digo</h2>
-    <p>Usa ChatGPT y copilot para resolver los ejercicios. Por cada ejercicio, pídele a ChatGPT o a copilot que te genere los comentarios. Verifica los resultados antes de subirlos a tu repo.</p>
+
+<h2>Ejercicios de c&oacute;digo</h2>
+<p>Usa ChatGPT y copilot para resolver los ejercicios. Por cada ejercicio, pídele a ChatGPT o a copilot que te genere los comentarios. Verifica los resultados antes de subirlos a tu repo.</p>
+
+<p>1. Modifica el siguiente elemento para mostrar la posición del mouse en el documento:</p>
+<p id="mousePosition">Posición del mouse:</p><!-- Path: Web\html\Tarea6\codigo_gpt.html -->
+
+<!----------------------------------------------------------------------------------------->
+
+<p>2. Al dar click al siguiente botón, obtén el nombre y apellido de las siguientes cajas de texto, y agrega, después del botón, un elemento que tenga el nombre completo.</p>
+<p>Si es que se copia textualmente lo que dice la siguiente imagen no funciona como se pide.</p>
+<img src="../../Imagenes/error_ejercicio-2.png" alt="error_ejercicio-2" width="500" height="443">
+<p>Después de analizar el c&oacute;digo intent&eacute; arreglarlo y me di cuenta que no imprimia desde .js, de ah&iacute; intent&eacute; a volver a pedir ayuda a ChatGPT ya que todav&iacute;a no encontraba el error. Faltaba el "onclick".</p>
+<p>Aparte de esos errores no lo colocaba en el formato pedido así que arregle eso para que sea un poco m&aacute;s legible.</p>
+
+<p><label for="firstName">First name:</label>
+<input type="text" id="firstName"></p>
+<p><label for="lastName">Last name:</label>
+<input type="text" id="lastName"></p>
+<button id="submitBtn" onclick="getFullName()">Submit</button>
+<p id="fullNameResult"></p>
+
+<!----------------------------------------------------------------------------------------->
+
+<p>3. Agrega el código para agregar una fila, o una columna, a la siguiente tabla al dar click al botón correspondiente.</p>
+<p>No pudo, le dije como 5 veces lo que estba haciendo mal y no corrigi&oacute; nada, me confundi&oacute; dem&aacute;s. Ni siquiera me voy a molestar con su respuesta.</p>
+
+<p>3. Agrega el código para agregar una fila, o una columna, a la siguiente tabla al dar click al botón correspondiente.</p>
+        <table id="sampleTable">
+            <tr>
+                <td>Row 1 Column 1</td>
+                <td>Row 1 Column 2</td>
+            </tr>
+            <tr>
+                <td>Row 2 Column 1</td>
+                <td>Row 2 Column 2</td>
+            </tr>
+        </table><br>
+        <input id="btn-insert-r" type="button" value="Insert row">
+        <input id="btn-insert-c" type="button" value="Insert column">
+
 </body>
 </html>
