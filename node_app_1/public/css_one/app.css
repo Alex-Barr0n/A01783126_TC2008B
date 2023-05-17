@@ -1,0 +1,22 @@
+*{
+    font-family: Garamond, serif;
+    font-size: 22px;
+  }
+  
+  body {
+    margin: 10px;
+    padding: 10px;
+    color: azure;
+    background-color: #171717;
+  }
+
+  h1{
+    font-weight: 500;
+    color: #d79bde;
+    transition: all 0.1s ease-in-out;
+  }
+
+  h1:hover{
+    text-shadow: 5 5 5px white, 10 10 10px white, 15 15 15px wheat, 20 20 20px white;
+    letter-spacing: 1px;
+  }
