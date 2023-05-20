@@ -2854,8 +2854,8 @@ textarea.form-control-lg {
 .btn-primary /*Boton de titulotototote*/
 {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #116483;
-  --bs-btn-border-color: #116483;
+  --bs-btn-bg: #0c7b63;
+  --bs-btn-border-color: #0c7b63;
   
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #13607A;
@@ -2869,7 +2869,7 @@ textarea.form-control-lg {
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #116483;
+  --bs-btn-disabled-bg: #0c7b63;
   --bs-btn-disabled-border-color: #116483;
 }
 
@@ -8198,7 +8198,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #10A483 !important;
 }
 
 .text-secondary {
@@ -11212,7 +11212,7 @@ body {
 .contact-section .card /*Linea debajo de contactos*/
 {
   border: 0;
-  border-bottom: 0.25rem solid #01A348;
+  border-bottom: 0.25rem solid #10A483;
 }
 .contact-section .card h4, .contact-section .card .h4 /*Tipo de letra en contactos*/
 {
@@ -11224,7 +11224,7 @@ body {
 .contact-section .card hr /*Linea en medio de contactos*/
 {
   opacity: 1;
-  border-color: #01A348;
+  border-color: #10A483;
   border-width: 0.25rem;
   width: 3rem;
 }
